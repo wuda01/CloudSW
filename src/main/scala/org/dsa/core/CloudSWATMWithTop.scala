@@ -17,7 +17,7 @@ import parasail.{Profile, RunParasail}
   */
 class CloudSWATMWithTop extends DSASequenceAlignmentTime {
 
-  val sswScoreThreshold = 32700
+//  val sswScoreThreshold = 32700
 
   /**
     * 对当条query序列和refRDD进行序列比对，并返回结果
@@ -53,7 +53,7 @@ class CloudSWATMWithTop extends DSASequenceAlignmentTime {
     var alignmendRecordArray = mapRDD.top(topK)(NameOrdering).map { each =>
       var alignmentSecond: AlignmentRecord = new AlignmentRecord()
 
-      if (each.score1 < sswScoreThreshold) {
+      if (each.score1 < Constants.ScoreThreshold) {
         alignmentSecond = SSWScala.align(query._2, each.refSequence, scoreMatrix, open, extension)
       } else {
         alignmentSecond = SWNormal.SSWLocal(query._2, each.refSequence, scoreMatrix, open, extension)

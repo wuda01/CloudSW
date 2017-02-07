@@ -277,7 +277,7 @@ public class SSW {
 
     /**
      * blosum50BaseV3
-     * 与parasail一致，blousum50.h
+     * from parasail，blousum50.h
      *
      * @return blosum50
      */
