@@ -9,7 +9,7 @@ import org.apache.spark.rdd.RDD
 import org.dsa.core.sa.SWNormal
 import org.dsa.mediator.ssw.SSWScala
 import org.dsa.rdd.{AlignmentRecord, AlignmentRecordTopK}
-import org.dsa.utils.NameOrdering
+import org.dsa.utils.{Constants, NameOrdering}
 import parasail.{Profile, RunParasail}
 
 /**
@@ -29,7 +29,7 @@ class CloudSWATMWithTop extends DSASequenceAlignmentTime {
     * @param topK        topK
     * @return 比对后的结果
     */
-  override def align(sc: SparkContext, query: (String, String), refRDD: RDD[(String, String)], scoreMatrix: String = defaultScoreMatrix, open: Int = defaultOpen, extension: Int = defaultGap, topK: Int = defaultTopK): AlignmentRecordTopK = {
+  override def align(sc: SparkContext, query: (String, String), refRDD: RDD[(String, String)], scoreMatrix: String = Constants.ScoreMatrix, open: Int = Constants.Open, extension: Int = Constants.Extension, topK: Int = Constants.TopK): AlignmentRecordTopK = {
     //1 compute
     var alignmentRecordTopK = new AlignmentRecordTopK()
 
@@ -86,8 +86,8 @@ class CloudSWATMWithTop extends DSASequenceAlignmentTime {
   }
 
 
-  def runAlign(profile: Profile, ref: String, open: Int, gap: Int): AlignmentRecord = {
-    new AlignmentRecord(RunParasail.runSW_striped_profile_sat(profile, ref, open, gap))
+  def runAlign(profile: Profile, ref: String, open: Int, extension: Int): AlignmentRecord = {
+    new AlignmentRecord(RunParasail.runSW_striped_profile_sat(profile, ref, open, extension))
   }
 
 }
@@ -110,13 +110,13 @@ object CloudSWATMWithTop {
     val splitNum = args(3).toInt
     val taskNum = args(4).toInt
     val topK = args(5).toInt
-    var open = dsw2atm.defaultOpen;
-    var gap = dsw2atm.defaultGap;
+    var open = Constants.Open;
+    var extension = Constants.Extension;
     if (args.length > 6) {
       open = args(6).toInt;
     }
     if (args.length > 7) {
-      gap = args(7).toInt;
+      extension = args(7).toInt;
     }
 
     val queryArr = queryFile.toString.split("/")
@@ -138,7 +138,7 @@ object CloudSWATMWithTop {
       .append("query" + "\t")
       .append("scoreMatrix" + "\t")
       .append("open" + "\t")
-      .append("gap" + "\t")
+      .append("extension" + "\t")
       .append("splitNum" + "\t")
       .append("taskNum" + "\t")
       .append("topK" + "\t")
@@ -152,7 +152,7 @@ object CloudSWATMWithTop {
       .append(queryArr(queryArr.length - 1) + "\t")
       .append(scoreMatrix + "\t")
       .append(open + "\t")
-      .append(gap + "\t")
+      .append(extension + "\t")
       .append(splitNum.toString + "\t")
       .append(taskNum.toString + "\t")
       .append(topK.toString + "\t")
@@ -162,7 +162,7 @@ object CloudSWATMWithTop {
       ",taskNum=" + taskNum.toString + ",topK=" + topK.toString
 
 
-    println("queryFile:" + queryFile + "\tdbFile:" + dbFile + "\t scoreMatrix:" + scoreMatrix + "\t open:" + open + "\t gap:" + gap + "\tsplitNum:" + splitNum + " \ttaskNum:" + taskNum + "\ttopK:" + topK)
+    println("queryFile:" + queryFile + "\tdbFile:" + dbFile + "\t scoreMatrix:" + scoreMatrix + "\t open:" + open + "\t extension:" + extension + "\tsplitNum:" + splitNum + " \ttaskNum:" + taskNum + "\ttopK:" + topK)
     startTime = System.currentTimeMillis()
     // set application name
     val conf = new SparkConf().setAppName(appName)
@@ -171,7 +171,7 @@ object CloudSWATMWithTop {
     // initialize SparkContext
     val spark = new SparkContext(conf)
 
-    val result = dsw2atm.run(spark, queryFile, dbFile, scoreMatrix, open, gap, splitNum, taskNum, topK)
+    val result = dsw2atm.run(spark, queryFile, dbFile, scoreMatrix, open, extension, splitNum, taskNum, topK)
 
     spark.stop()
     stopTime = System.currentTimeMillis()

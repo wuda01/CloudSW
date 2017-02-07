@@ -4,7 +4,7 @@ package org.dsa.mediator.smithwaterman
 class SmithWatermanAffine(xSequence: String,
                           ySequence: String,
                           scoreMatrixInput: String,
-                          open: Int, gap: Int)
+                          open: Int, extension: Int)
   extends SmithWaterman(xSequence, ySequence) {
 
   def buildScoringMatrix(): (Double, Array[Array[Int]], Array[Array[Char]]) = {
@@ -17,11 +17,11 @@ class SmithWatermanAffine(xSequence: String,
     } else {
       println("error score matrix")
     }
-    compute(xSequence, ySequence, scoreMatrixValue, open, gap)
+    compute(xSequence, ySequence, scoreMatrixValue, open, extension)
 
   }
 
-  def compute(query: String, ref: String, bcBlosumValue: Array[Array[Int]], open: Int, gap: Int): (Double, Array[Array[Int]], Array[Array[Char]]) = {
+  def compute(query: String, ref: String, bcBlosumValue: Array[Array[Int]], open: Int, extension: Int): (Double, Array[Array[Int]], Array[Array[Char]]) = {
     // get name and content of each database sequences
 
     var refLen = ref.length + 1

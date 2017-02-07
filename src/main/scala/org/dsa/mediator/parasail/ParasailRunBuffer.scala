@@ -60,7 +60,6 @@ object ParasailRunBuffer {
 
 
         //        runSW_striped_profile_sat
-        //        (profile, ref, open, gap)
         val result = RunParasail.runSW_striped_profile_sat(profile, strArr(1), 12, 2).getScore
         //        val result = RunParasail.runSW_striped_sat(query._2, strArr(1), 12, 2, Matrix.blosum50)
         if (result > topScore) {

@@ -4,6 +4,7 @@ import org.apache.spark.SparkContext
 import org.apache.spark.rdd.RDD
 import org.apache.spark.storage.StorageLevel
 import org.dsa.rdd.AlignmentRecordTopK
+import org.dsa.utils.Constants
 
 import scala.collection.mutable.ArrayBuffer
 
@@ -13,15 +14,15 @@ import scala.collection.mutable.ArrayBuffer
 abstract class DSASSequenceAlignment extends DSAAligmentTrait with Serializable {
 
   val className = this.getClass().getSimpleName().filter(!_.equals('$'))
-  val defaultScoreMatrix = "BLOSUM50"
-  val defaultOpen = 12
-  val defaultGap = 2
-  val defaultSplitNum = 128
-  val defaultTaskNum = 1
-  val defaultTopK = 5
-  val querysThreshold = 2
+//  val defaultScoreMatrix = "BLOSUM50"
+//  val defaultOpen = 12
+//  val defaultext = 2
+//  val defaultSplitNum = 128
+//  val defaultTaskNum = 1
+//  val defaultTopK = 5
+//  val querysThreshold = 2
 
-  def run(sc: SparkContext, queryFile: String, refFile: String, scoreMatrixFile: String = defaultScoreMatrix, open: Int = defaultOpen, gap: Int = defaultGap, splitNum: Int = defaultSplitNum, taskNum: Int = defaultTaskNum, topK: Int = defaultTopK): Array[AlignmentRecordTopK] = {
+  def run(sc: SparkContext, queryFile: String, refFile: String, scoreMatrixFile: String = Constants.ScoreMatrix, open: Int = Constants.Open, ext: Int = Constants.Extension, splitNum: Int = Constants.SplitNum, taskNum: Int = Constants.TaskNum, topK: Int = Constants.TopK): Array[AlignmentRecordTopK] = {
 
     // 1 preprocess
 
@@ -36,16 +37,16 @@ abstract class DSASSequenceAlignment extends DSAAligmentTrait with Serializable 
 
     // 2 align
 
-    if (querys.length > querysThreshold) {
+    if (querys.length > Constants.QuerysThreshold) {
       refRDD.persist(StorageLevel.MEMORY_ONLY)
     }
 
     //    var result = new ArrayBuffer[AlignmentRecordTopK]()
     //    querys.foreach { query =>
     //    result.append(
-    val result = align(sc, querys, refRDD, scoreMatrix, open, gap, topK)
+    val result = align(sc, querys, refRDD, scoreMatrix, open, ext, topK)
     //    }
-    if (querys.length > querysThreshold) {
+    if (querys.length > Constants.QuerysThreshold) {
       refRDD.unpersist()
     }
 
@@ -63,7 +64,7 @@ abstract class DSASSequenceAlignment extends DSAAligmentTrait with Serializable 
     * @param topK        topK
     * @return 比对后的结果
     */
-  def align(sc: SparkContext, querys: Array[(String, String)], refRDD: RDD[(String, String)], scoreMatrix: String, open: Int, gap: Int, topK: Int): Array[AlignmentRecordTopK]
+  def align(sc: SparkContext, querys: Array[(String, String)], refRDD: RDD[(String, String)], scoreMatrix: String, open: Int, ext: Int, topK: Int): Array[AlignmentRecordTopK]
 
   /**
     * 将queryFile读入并进行预处理，返回字符串数组

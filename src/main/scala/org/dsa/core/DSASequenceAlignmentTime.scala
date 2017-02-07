@@ -5,6 +5,7 @@ import java.util.Date
 
 import org.apache.spark.{SparkConf, SparkContext}
 import org.dsa.rdd.AlignmentRecord
+import org.dsa.utils.Constants
 
 /**
   * Created by xubo on 2016/12/4.
@@ -17,7 +18,7 @@ abstract class DSASequenceAlignmentTime extends DSASequenceAlignment {
   var appName = new String
   var outFile = new StringBuilder
 
-  def runWithIime(scoreMatrix: String, queryFile: String, refFile: String ,scoreMatrixFile: String = defaultScoreMatrix, open: Int = defaultOpen, gap: Int = defaultGap, splitNum: Int = defaultSplitNum, taskNum: Int =defaultTaskNum, topK: Int =defaultTopK) {
+  def runWithIime(scoreMatrix: String, queryFile: String, refFile: String ,scoreMatrixFile: String = Constants.ScoreMatrix, open: Int = Constants.Open, extension: Int = Constants.Extension, splitNum: Int = Constants.SplitNum, taskNum: Int =Constants.TaskNum, topK: Int =Constants.TopK) {
 
     val queryArr = queryFile.toString.split("/")
     val dbArr = refFile.toString.split("/")
@@ -68,7 +69,7 @@ abstract class DSASequenceAlignmentTime extends DSASequenceAlignment {
     val sc = new SparkContext(conf)
     //    val argsArr = Array(subMatrix, queryFile, dbFile, splitNum.toString, taskNum.toString, topK.toString)
     //    SparkSWPaper.main(argsArr)
-    val result = run(sc, queryFile, refFile, scoreMatrix, open, gap, splitNum, taskNum, topK)
+    val result = run(sc, queryFile, refFile, scoreMatrix, open, extension, splitNum, taskNum, topK)
     //    (subMatrix, queryFile, dbFile, splitNum, taskNum, topK, sc)
     //     set application name
     //    val conf = new SparkConf().setAppName(appName)

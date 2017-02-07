@@ -15,8 +15,8 @@ object ParasailScala {
     alignmentRecord
   }
 
-  def alignNW(query: String, ref: String, open: Int, gap: Int, matrix: Matrix): AlignmentRecord = {
-    val result = RunParasail.runNW(query, ref, open, gap, matrix)
+  def alignNW(query: String, ref: String, open: Int, extension: Int, matrix: Matrix): AlignmentRecord = {
+    val result = RunParasail.runNW(query, ref, open, extension, matrix)
 //    println("result.getEndQuery:" + result.getEndQuery)
     //    println("result.getEndRef:" + result.getEndRef)
     //    println("result.getLength:" + result.getLength)
@@ -27,13 +27,13 @@ object ParasailScala {
     new AlignmentRecord(result)
   }
 
-  def alignSG(query: String, ref: String, open: Int, gap: Int, matrix: Matrix): AlignmentRecord = {
-    val result = RunParasail.runSG(query, ref, open, gap, matrix)
+  def alignSG(query: String, ref: String, open: Int, extension: Int, matrix: Matrix): AlignmentRecord = {
+    val result = RunParasail.runSG(query, ref, open, extension, matrix)
     new AlignmentRecord(result)
   }
 
-  def alignSW(query: String, ref: String, open: Int, gap: Int, matrix: Matrix): AlignmentRecord = {
-    val result = RunParasail.runSW2(query, ref, open, gap, matrix)
+  def alignSW(query: String, ref: String, open: Int, extension: Int, matrix: Matrix): AlignmentRecord = {
+    val result = RunParasail.runSW2(query, ref, open, extension, matrix)
     new AlignmentRecord(result)
   }
 }

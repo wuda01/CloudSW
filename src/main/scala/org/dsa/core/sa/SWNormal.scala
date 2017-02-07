@@ -8,8 +8,8 @@ import org.dsa.rdd.AlignmentRecord
   */
 object SWNormal {
 
-  def SSWLocal(query: String, ref: String, scoreMatrix: String, open: Int, gap: Int): AlignmentRecord = {
-    val sw = new SmithWatermanAffine(query, ref, scoreMatrix, open, gap)
+  def SSWLocal(query: String, ref: String, scoreMatrix: String, open: Int, extension: Int): AlignmentRecord = {
+    val sw = new SmithWatermanAffine(query, ref, scoreMatrix, open, extension)
     val alignmentRecord = new AlignmentRecord()
     alignmentRecord.score1 = sw.maxScore.toInt
     alignmentRecord.cigar = sw.cigarX.toString

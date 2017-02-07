@@ -8,7 +8,7 @@ import org.dsa.rdd.AlignmentRecordTopK
   */
 trait DSAAligmentTrait {
 
-  def run(sc: SparkContext, queryFile: String, refFile: String, scoreMatrixFile: String, open: Int, gap: Int, splitNum: Int, taskNum: Int, topK: Int): Array[AlignmentRecordTopK]
+  def run(sc: SparkContext, queryFile: String, refFile: String, scoreMatrixFile: String, open: Int, extension: Int, splitNum: Int, taskNum: Int, topK: Int): Array[AlignmentRecordTopK]
 
 }
 

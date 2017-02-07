@@ -7,7 +7,7 @@ import org.apache.log4j.{Level, Logger}
 import org.apache.spark.rdd.RDD
 import org.apache.spark.{SparkConf, SparkContext}
 import org.dsa.rdd.{AlignmentRecord, AlignmentRecordTopK}
-import org.dsa.utils.NameOrdering
+import org.dsa.utils.{Constants, NameOrdering}
 import parasail.{Matrix, Profile, RunParasail}
 
 /**
@@ -26,7 +26,7 @@ class CloudSWASMWithTop extends DSASequenceAlignmentTime {
     * @param topK        topK
     * @return 比对后的结果
     */
-  override def align(sc: SparkContext, query: (String, String), refRDD: RDD[(String, String)], scoreMatrix: String = defaultScoreMatrix, open: Int = defaultOpen, gap: Int = defaultGap, topK: Int = defaultTopK): AlignmentRecordTopK = {
+  override def align(sc: SparkContext, query: (String, String), refRDD: RDD[(String, String)], scoreMatrix: String = Constants.ScoreMatrix, open: Int = Constants.Open, ext: Int = Constants.Extension, topK: Int = Constants.TopK): AlignmentRecordTopK = {
     //1 compute
     var alignmentRecordTopK = new AlignmentRecordTopK()
     var flagLocal = true
@@ -37,7 +37,7 @@ class CloudSWASMWithTop extends DSASequenceAlignmentTime {
         flagLocal = false;
       }
 
-      val alignment = runAlign(null, ref._2, open, gap)
+      val alignment = runAlign(null, ref._2, open, ext)
       alignment.refName = ref._1
       alignment
     }
@@ -68,8 +68,8 @@ class CloudSWASMWithTop extends DSASequenceAlignmentTime {
   }
 
 
-  def runAlign(profile: Profile, ref: String, open: Int, gap: Int): AlignmentRecord = {
-    new AlignmentRecord(RunParasail.runSW_striped_profile_sat(profile, ref, open, gap))
+  def runAlign(profile: Profile, ref: String, open: Int, ext: Int): AlignmentRecord = {
+    new AlignmentRecord(RunParasail.runSW_striped_profile_sat(profile, ref, open, ext))
   }
 
 }
@@ -91,13 +91,13 @@ object CloudSWASMWithTop {
     val splitNum = args(3).toInt
     val taskNum = args(4).toInt
     val topK = args(5).toInt
-    var open = dsw2.defaultOpen;
-    var gap = dsw2.defaultGap;
+    var open = Constants.Open;
+    var ext = Constants.Extension;
     if (args.length > 6) {
       open = args(6).toInt;
     }
     if (args.length > 7) {
-      gap = args(7).toInt;
+      ext = args(7).toInt;
     }
 
     val queryArr = queryFile.toString.split("/")
@@ -119,7 +119,7 @@ object CloudSWASMWithTop {
       .append("query" + "\t")
       .append("scoreMatrix" + "\t")
       .append("open" + "\t")
-      .append("gap" + "\t")
+      .append("ext" + "\t")
       .append("splitNum" + "\t")
       .append("taskNum" + "\t")
       .append("topK" + "\t")
@@ -133,7 +133,7 @@ object CloudSWASMWithTop {
       .append(queryArr(queryArr.length - 1) + "\t")
       .append(scoreMatrix + "\t")
       .append(open + "\t")
-      .append(gap + "\t")
+      .append(ext + "\t")
       .append(splitNum.toString + "\t")
       .append(taskNum.toString + "\t")
       .append(topK.toString + "\t")
@@ -153,7 +153,7 @@ object CloudSWASMWithTop {
     // initialize SparkContext
     val spark = new SparkContext(conf)
 
-    val result = dsw2.run(spark, queryFile, dbFile, scoreMatrix, open, gap, splitNum, taskNum, topK)
+    val result = dsw2.run(spark, queryFile, dbFile, scoreMatrix, open, ext, splitNum, taskNum, topK)
 
     spark.stop()
     stopTime = System.currentTimeMillis()

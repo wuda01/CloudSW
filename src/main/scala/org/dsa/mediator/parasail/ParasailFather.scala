@@ -8,7 +8,7 @@ import scala.io.Source
   * Created by xubo on 2016/12/22.
   */
 class ParasailFather {
-  def compute(query: String, ref: String, open: Int, gap: Int, matrix: Matrix = Matrix.blosum50): Unit = {
+  def compute(query: String, ref: String, open: Int, extension: Int, matrix: Matrix = Matrix.blosum50): Unit = {
     print("query:\t" + query)
     print("\tref:\t" + ref)
     val start = System.currentTimeMillis()
@@ -40,7 +40,7 @@ class ParasailFather {
           queryLength = query._2.length
         }
 
-        val result = run(profile, ref._2, open, gap)
+        val result = run(profile, ref._2, open, extension)
 
         if (result.getScore > topScore) {
           topScore = result.getScore
@@ -65,8 +65,8 @@ class ParasailFather {
     new Profile(JNIparasail.profile_create_sat(query, Matrix.getCPtr(matrix)), true)
   }
 
-  def run(profile: Profile, ref: String, open: Int, gap: Int): Result = {
-    RunParasail.runSW_striped_profile_sat(profile, ref, open, gap)
+  def run(profile: Profile, ref: String, open: Int, extension: Int): Result = {
+    RunParasail.runSW_striped_profile_sat(profile, ref, open, extension)
   }
 }
 

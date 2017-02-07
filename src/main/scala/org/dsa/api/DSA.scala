@@ -45,10 +45,10 @@ class DSA {
     * @param topK            top K
     * @param scoreMatrixFile score Matrix File
     * @param open            open score
-    * @param gap             gap score
+    * @param ext             extention score
     * @return Array[AlignmentRecordTopK]
     */
-  def dsw(queryFile: String, refFile: String, sc: SparkContext, splitNum: Int = 128, taskNum: Int = 1, topK: Int = 5, scoreMatrixFile: String = null, open: Int = 12, gap: Int = 2): Array[AlignmentRecordTopK] = {
+  def dsw(queryFile: String, refFile: String, sc: SparkContext, splitNum: Int = 128, taskNum: Int = 1, topK: Int = 5, scoreMatrixFile: String = null, open: Int = 12, ext: Int = 2): Array[AlignmentRecordTopK] = {
     val dsw = new DSW
     val result = dsw.run(scoreMatrixFile, queryFile, refFile, splitNum, taskNum, topK, sc)
     result
@@ -66,10 +66,10 @@ class DSA {
     * @param topK            top K
     * @param scoreMatrixFile score Matrix File
     * @param open            open score
-    * @param gap             gap score
+    * @param ext             extention score
     * @return Array[AlignmentRecordTopK]
     */
-  def dswAdam(queryAdamFile: String, refAdamFile: String, sc: SparkContext, splitNum: Int = 128, taskNum: Int = 1, topK: Int = 5, scoreMatrixFile: String = null, open: Int = 12, gap: Int = 2): Array[AlignmentRecordTopK] = {
+  def dswAdam(queryAdamFile: String, refAdamFile: String, sc: SparkContext, splitNum: Int = 128, taskNum: Int = 1, topK: Int = 5, scoreMatrixFile: String = null, open: Int = 12, ext: Int = 2): Array[AlignmentRecordTopK] = {
     val dsw = new AdamDSW
     val result = dsw.run(scoreMatrixFile, queryAdamFile, refAdamFile, splitNum, taskNum, topK, sc)
     result
@@ -86,10 +86,10 @@ class DSA {
     * @param topK            top K
     * @param scoreMatrixFile score Matrix File
     * @param open            open score
-    * @param gap             gap score
+    * @param ext             extention score
     * @return Array[AlignmentRecordTopK]
     */
-  def dnw(queryFile: String, refFile: String, sc: SparkContext, splitNum: Int = 128, taskNum: Int = 1, topK: Int = 5, scoreMatrixFile: String = null, open: Int = 12, gap: Int = 2): Array[AlignmentRecordTopK] = {
+  def dnw(queryFile: String, refFile: String, sc: SparkContext, splitNum: Int = 128, taskNum: Int = 1, topK: Int = 5, scoreMatrixFile: String = null, open: Int = 12, ext: Int = 2): Array[AlignmentRecordTopK] = {
     val dnw = new DNW
     val result = dnw.run(scoreMatrixFile, queryFile, refFile, splitNum, taskNum, topK, sc)
     result
@@ -107,10 +107,10 @@ class DSA {
     * @param topK            top K
     * @param scoreMatrixFile score Matrix File
     * @param open            open score
-    * @param gap             gap score
+    * @param ext             extention score
     * @return Array[AlignmentRecordTopK]
     */
-  def dnwAdam(queryAdamFile: String, refAdamFile: String, sc: SparkContext, splitNum: Int = 128, taskNum: Int = 1, topK: Int = 5, scoreMatrixFile: String = null, open: Int = 12, gap: Int = 2): Array[AlignmentRecordTopK] = {
+  def dnwAdam(queryAdamFile: String, refAdamFile: String, sc: SparkContext, splitNum: Int = 128, taskNum: Int = 1, topK: Int = 5, scoreMatrixFile: String = null, open: Int = 12, ext: Int = 2): Array[AlignmentRecordTopK] = {
     val dnw = new AdamDNW
     val result = dnw.run(scoreMatrixFile, queryAdamFile, refAdamFile, splitNum, taskNum, topK, sc)
     result
@@ -127,10 +127,10 @@ class DSA {
     * @param topK            top K
     * @param scoreMatrixFile score Matrix File
     * @param open            open score
-    * @param gap             gap score
+    * @param ext             extention score
     * @return Array[AlignmentRecordTopK]
     */
-  def dsg(queryFile: String, refFile: String, sc: SparkContext, splitNum: Int = 128, taskNum: Int = 1, topK: Int = 5, scoreMatrixFile: String = null, open: Int = 12, gap: Int = 2): Array[AlignmentRecordTopK] = {
+  def dsg(queryFile: String, refFile: String, sc: SparkContext, splitNum: Int = 128, taskNum: Int = 1, topK: Int = 5, scoreMatrixFile: String = null, open: Int = 12, ext: Int = 2): Array[AlignmentRecordTopK] = {
     val dsg = new DSG
     val result = dsg.run(scoreMatrixFile, queryFile, refFile, splitNum, taskNum, topK, sc)
     result
@@ -148,10 +148,10 @@ class DSA {
     * @param topK            top K
     * @param scoreMatrixFile score Matrix File
     * @param open            open score
-    * @param gap             gap score
+    * @param ext             extention score
     * @return Array[AlignmentRecordTopK]
     */
-  def dsgAdam(queryAdamFile: String, refAdamFile: String, sc: SparkContext, splitNum: Int = 128, taskNum: Int = 1, topK: Int = 5, scoreMatrixFile: String = null, open: Int = 12, gap: Int = 2): Array[AlignmentRecordTopK] = {
+  def dsgAdam(queryAdamFile: String, refAdamFile: String, sc: SparkContext, splitNum: Int = 128, taskNum: Int = 1, topK: Int = 5, scoreMatrixFile: String = null, open: Int = 12, ext: Int = 2): Array[AlignmentRecordTopK] = {
     val dsg = new AdamDSG
     val result = dsg.run(scoreMatrixFile, queryAdamFile, refAdamFile, splitNum, taskNum, topK, sc)
     result
