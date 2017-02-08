@@ -89,8 +89,8 @@ There are some function in DSA system:
 ##Paper
 Efficient Distributed Smith-Waterman Algorithm Based on Apache Spark (unpublished)
 
-
-
+##Help
+If you have any questions or suggestions, please write it in the issue of this project or send an e-mail to me: xubo245@mail.ustc.edu.cn
 ##Reference
 
 	[1] B. Xu, C. Li, H. Zhuang, J. Wang, Q. Wang, J. Zhou, et al. (2017, January 1, 2017). DSA: Scalable Distributed Sequence Alignment System Using SIMD Instructions. ArXiv e-prints 1701. Available: https://arxiv.org/abs/1701.01575
