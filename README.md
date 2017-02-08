@@ -71,7 +71,7 @@ Result:
 
  	def ATM(sc: SparkContext,queryFile: String, refFile: String,scoreMatrixFile: String = "BLOSUM50",  open: Int = 12, ext: Int = 2,  splitNum: Int = 128, taskNum: Int = 1, topK: Int = 5): Array[AlignmentRecordTopK]
  
-More APIs can bu view [scaladoc](./docs/scaladoc) of CloudSW.
+More APIs can be viewed in [scaladoc](./docs/scaladoc) of CloudSW by browser.
 
 ##Data
 ###ref:  
