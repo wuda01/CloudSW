@@ -90,6 +90,19 @@ There are some function in DSA system:
 ##Paper
 Efficient Distributed Smith-Waterman Algorithm Based on Apache Spark (unpublished)
 
+##Experimental record
+
+To show scalability and the best performance of CloudSW, we open some experimental records.
+
+The experimental records of Alibaba Aliyun Cloud are in docs/aliyun folder.
+
+The number of nodes are 5, 10, 15, ... ,45 ,50.
+
+There are HDFS file, picture of ganglia, run records of CLoudSW.
+
+We also analysis the run results of CloudSW, which is in "docs/aliyun/all.xlsx" file.
+
+
 ##Help
 If you have any questions or suggestions, please write it in the issue of this project or send an e-mail to me: xubo245@mail.ustc.edu.cn
 ##Reference

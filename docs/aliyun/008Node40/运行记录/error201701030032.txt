@@ -1,0 +1,34 @@
+
+BLOSUM62	/queryD/D9L392N40	/Luniref/DL9Line.fasta	512	1	5	11	1	
+[Stage 8:===================================================>  (485 + 27) / 512]^C
+[hadoop@emr-header-1 ~]$ tail -f aliyunDSW2atmtimequeryHDFSyarnclienttime201701022331Node40Task512.txt 
+
+topK:5 Query:UniRef100_M7V2E2
+AlignmentRecord(refName=UniRef100_M7V2E2, refSequence.take(100)=MVASSYTKLESDPPTKPSLPWRFSSSLIMGVTGAITRFFYYGLSNVEVIGLERFKATLDRRENPEERERGLITVSNHVSVMDDPLIWGVLPLKYGFNPSN, cigar=392M, score1=2136, score2=1065, ref_begin1=0, ref_end1=391, read_begin1=0, read_end1=391, ref_end2=194)
+AlignmentRecord(refName=UniRef100_G2YSU6, refSequence.take(100)=MVASSYTKLESDPPTKPSLPWRFSSSLIMGVTGAITRFFYYGLSNVEVIGLERFKATLDRRENPEERERGLITVSNHVSVMDDPLIWGVLPLKYGFNPSN, cigar=392M, score1=2123, score2=1060, ref_begin1=0, ref_end1=391, read_begin1=0, read_end1=391, ref_end2=194)
+AlignmentRecord(refName=UniRef100_A7F7X6, refSequence.take(100)=MGVTGAVSRIFYYGLNNMEVIGLERFMATLDKRENPEDRERGLITVSNHVSVMDDPLIWGVLPFKYGFNASNHRWSLGSYDICFQNKLLSSFFTLGQVLP, cigar=364M, score1=1852, score2=844, ref_begin1=28, ref_end1=363, read_begin1=28, read_end1=391, ref_end2=166)
+AlignmentRecord(refName=UniRef100_W9CFJ0, refSequence.take(100)=MSLPSYTKLQSDPPSKPSLPWRFGSSLIMGVTGAFTRFFYYGLSNVEVIGLKRFLTTLDSRQNPEDRERGLITVSNHVSVLDDPLMILSSFFTLGQVLPT, cigar=86M29I277M, score1=1730, score2=741, ref_begin1=0, ref_end1=362, read_begin1=0, read_end1=391, ref_end2=165)
+AlignmentRecord(refName=UniRef100_A0A0C3HYV1, refSequence.take(100)=MGLTGTLSRGFLYGLNYMEVIGLDRFLETLDKRKDVGGRERGLLTVSNHVSVLDDPLIWGSLPLSYAFSPKDLRWSLGSYDICFKNKFLSAFFSVGQVLP, cigar=135M3I218M1D8M, score1=1449, score2=594, ref_begin1=28, ref_end1=361, read_begin1=28, read_end1=391, ref_end2=164)
+
+BLOSUM62	/queryD/D9L392N40	/Luniref/DL9Line.fasta	512	1	5	11	1	
+Exception in thread "main" java.io.IOException: Connection from emr-worker-27.cluster-36389/10.28.89.199:34225 closed
+	at org.apache.spark.network.client.TransportResponseHandler.channelUnregistered(TransportResponseHandler.java:124)
+	at org.apache.spark.network.server.TransportChannelHandler.channelUnregistered(TransportChannelHandler.java:94)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelUnregistered(AbstractChannelHandlerContext.java:158)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelUnregistered(AbstractChannelHandlerContext.java:144)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelUnregistered(ChannelInboundHandlerAdapter.java:53)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelUnregistered(AbstractChannelHandlerContext.java:158)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelUnregistered(AbstractChannelHandlerContext.java:144)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelUnregistered(ChannelInboundHandlerAdapter.java:53)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelUnregistered(AbstractChannelHandlerContext.java:158)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelUnregistered(AbstractChannelHandlerContext.java:144)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelUnregistered(ChannelInboundHandlerAdapter.java:53)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelUnregistered(AbstractChannelHandlerContext.java:158)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelUnregistered(AbstractChannelHandlerContext.java:144)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelUnregistered(DefaultChannelPipeline.java:739)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$8.run(AbstractChannel.java:659)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:357)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:357)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:111)
+	at java.lang.Thread.run(Thread.java:745)
+BLOSUM62	/queryD/D9L392N40	/Luniref/DL9Line.fasta	512	1	5	11	1	

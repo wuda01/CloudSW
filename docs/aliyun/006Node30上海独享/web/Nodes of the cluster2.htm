@@ -1,0 +1,1204 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head><meta http-equiv="X-UA-Compatible" content="IE=8">
+  <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+  <style type="text/css">
+    #nodes_paginate span {font-weight:normal}
+    #nodes .progress {width:8em}
+    #nodes_processing {top:-1.5em; font-size:1em;
+      color:#000; background:rgba(255, 255, 255, 0.8)}
+    #nodes .healthStatus {width:10em}
+    #nodes .healthReport {width:10em}
+  </style>
+  <title>
+    Nodes of the cluster
+  </title>
+  <link rel="stylesheet" href="Nodes%20of%20the%20cluster2_files/yarn.css">
+  <style type="text/css">
+    #layout { height: 100%; }
+    #layout thead td { height: 3em; }
+    #layout #navcell { width: 11em; padding: 0 1em; }
+    #layout td.content { padding-top: 0 }
+    #layout tbody { vertical-align: top; }
+    #layout tfoot td { height: 4em; }
+  </style>
+  <link rel="stylesheet" href="Nodes%20of%20the%20cluster2_files/jquery-ui.css">
+  <link rel="stylesheet" href="Nodes%20of%20the%20cluster2_files/jui-dt.css">
+  <script type="text/javascript" src="Nodes%20of%20the%20cluster2_files/jquery-1.js">
+  </script>
+  <script type="text/javascript" src="Nodes%20of%20the%20cluster2_files/jquery-ui-1.js">
+  </script>
+  <script type="text/javascript" src="Nodes%20of%20the%20cluster2_files/jquery.js">
+  </script>
+  <script type="text/javascript" src="Nodes%20of%20the%20cluster2_files/yarn.js">
+  </script>
+  <style type="text/css">
+    #jsnotice { padding: 0.2em; text-align: center; }
+    .ui-progressbar { height: 1em; min-width: 5em }
+  </style>
+  <script type="text/javascript">
+    $(function() {
+      $('#nav').accordion({autoHeight:false, active:0});
+    nodesDataTable =  $('#nodes').dataTable({bStateSave : true, "fnStateSave": function (oSettings, oData) {  data = oData.aoSearchCols;for(i =0 ; i < data.length; i ++) {data[i].sSearch = ""} sessionStorage.setItem( oSettings.sTableId, JSON.stringify(oData) ); }, "fnStateLoad": function (oSettings) { return JSON.parse( sessionStorage.getItem(oSettings.sTableId) );}, bJQueryUI:true, sPaginationType: 'full_numbers', iDisplayLength:20, aLengthMenu:[20, 40, 60, 80, 100], aoColumnDefs: [{'bSearchable': false, 'aTargets': [ 7 ]}, {'sType': 'title-numeric', 'bSearchable': false, 'aTargets': [ 8, 9 ] }, {'sType': 'title-numeric', 'aTargets': [ 5 ]}]}).fnSetFilteringDelay(188);
+    });
+  </script>
+  </head><body><div id="jsnotice" class="ui-state-error" style="display: none;">
+    This page will not function without javascript enabled. Please enable javascript on your browser.
+  </div>
+  <script type="text/javascript">
+    $('#jsnotice').hide();
+  </script>
+  <table id="layout" class="ui-widget-content">
+    <thead>
+      <tr>
+        <td colspan="2">
+          <div id="header" class="ui-widget">
+            <div id="user">
+              Logged in as: dr.who
+            </div>
+            <div id="logo">
+              <img src="Nodes%20of%20the%20cluster2_files/hadoop-st.png">
+            </div>
+            <h1>
+              Nodes of the cluster
+            </h1>
+          </div>
+        </td>
+      </tr>
+    </thead>
+    <tfoot>
+      <tr>
+        <td colspan="2">
+          <div id="footer" class="ui-widget">
+          </div>
+        </td>
+      </tr>
+    </tfoot>
+    <tbody>
+      <tr>
+        <td id="navcell">
+          <div id="nav" class="ui-accordion ui-widget ui-helper-reset" role="tablist">
+            <h3 class="ui-accordion-header ui-helper-reset ui-state-default ui-accordion-header-active ui-state-active ui-corner-top ui-accordion-icons" role="tab" id="ui-accordion-nav-header-0" aria-controls="ui-accordion-nav-panel-0" aria-selected="true" tabindex="0"><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-s"></span>
+              Cluster
+            </h3>
+            <ul class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom ui-accordion-content-active" style="display: block;" id="ui-accordion-nav-panel-0" aria-labelledby="ui-accordion-nav-header-0" role="tabpanel" aria-expanded="true" aria-hidden="false">
+              <li>
+                <a href="http://yarn.c-1f59e1e60490e376.cn-hangzhou.emr.aliyuncs.com/cluster/cluster">About</a>
+              </li><li>
+                <a href="http://yarn.c-1f59e1e60490e376.cn-hangzhou.emr.aliyuncs.com/cluster/nodes">Nodes</a>
+              </li><li>
+                <a href="http://yarn.c-1f59e1e60490e376.cn-hangzhou.emr.aliyuncs.com/cluster/nodelabels">Node Labels</a>
+              </li><li>
+                <a href="http://yarn.c-1f59e1e60490e376.cn-hangzhou.emr.aliyuncs.com/cluster/apps">Applications</a>
+                <ul>
+                  <li>
+                  </li><li>
+                    <a href="http://yarn.c-1f59e1e60490e376.cn-hangzhou.emr.aliyuncs.com/cluster/apps/NEW">NEW</a>
+                  </li><li>
+                    <a href="http://yarn.c-1f59e1e60490e376.cn-hangzhou.emr.aliyuncs.com/cluster/apps/NEW_SAVING">NEW_SAVING</a>
+                  </li><li>
+                    <a href="http://yarn.c-1f59e1e60490e376.cn-hangzhou.emr.aliyuncs.com/cluster/apps/SUBMITTED">SUBMITTED</a>
+                  </li><li>
+                    <a href="http://yarn.c-1f59e1e60490e376.cn-hangzhou.emr.aliyuncs.com/cluster/apps/ACCEPTED">ACCEPTED</a>
+                  </li><li>
+                    <a href="http://yarn.c-1f59e1e60490e376.cn-hangzhou.emr.aliyuncs.com/cluster/apps/RUNNING">RUNNING</a>
+                  </li><li>
+                    <a href="http://yarn.c-1f59e1e60490e376.cn-hangzhou.emr.aliyuncs.com/cluster/apps/FINISHED">FINISHED</a>
+                  </li><li>
+                    <a href="http://yarn.c-1f59e1e60490e376.cn-hangzhou.emr.aliyuncs.com/cluster/apps/FAILED">FAILED</a>
+                  </li><li>
+                    <a href="http://yarn.c-1f59e1e60490e376.cn-hangzhou.emr.aliyuncs.com/cluster/apps/KILLED">KILLED</a>
+                </li></ul>
+              </li><li>
+                <a href="http://yarn.c-1f59e1e60490e376.cn-hangzhou.emr.aliyuncs.com/cluster/scheduler">Scheduler</a>
+            </li></ul>
+            <h3 class="ui-accordion-header ui-helper-reset ui-state-default ui-corner-all ui-accordion-icons" role="tab" id="ui-accordion-nav-header-1" aria-controls="ui-accordion-nav-panel-1" aria-selected="false" tabindex="-1"><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span>
+              Tools
+            </h3>
+            <ul class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" style="display: none;" id="ui-accordion-nav-panel-1" aria-labelledby="ui-accordion-nav-header-1" role="tabpanel" aria-expanded="false" aria-hidden="true">
+              <li>
+                <a href="http://yarn.c-1f59e1e60490e376.cn-hangzhou.emr.aliyuncs.com/conf">Configuration</a>
+              </li><li>
+                <a href="http://yarn.c-1f59e1e60490e376.cn-hangzhou.emr.aliyuncs.com/logs">Local logs</a>
+              </li><li>
+                <a href="http://yarn.c-1f59e1e60490e376.cn-hangzhou.emr.aliyuncs.com/stacks">Server stacks</a>
+              </li><li>
+                <a href="http://yarn.c-1f59e1e60490e376.cn-hangzhou.emr.aliyuncs.com/jmx?qry=Hadoop:*">Server metrics</a>
+            </li></ul>
+          </div>
+        </td>
+        <td class="content">
+          <style type="text/css">
+            .metrics {margin-bottom:5px}
+          </style>
+          <div class="metrics">
+            <h3>
+              Cluster Metrics
+            </h3>
+            <table id="metricsoverview">
+              <thead class="ui-widget-header">
+                <tr>
+                  <th class="ui-state-default">
+                    Apps Submitted
+                  </th>
+                  <th class="ui-state-default">
+                    Apps Pending
+                  </th>
+                  <th class="ui-state-default">
+                    Apps Running
+                  </th>
+                  <th class="ui-state-default">
+                    Apps Completed
+                  </th>
+                  <th class="ui-state-default">
+                    Containers Running
+                  </th>
+                  <th class="ui-state-default">
+                    Memory Used
+                  </th>
+                  <th class="ui-state-default">
+                    Memory Total
+                  </th>
+                  <th class="ui-state-default">
+                    Memory Reserved
+                  </th>
+                  <th class="ui-state-default">
+                    VCores Used
+                  </th>
+                  <th class="ui-state-default">
+                    VCores Total
+                  </th>
+                  <th class="ui-state-default">
+                    VCores Reserved
+                  </th>
+                  <th class="ui-state-default">
+                    Active Nodes
+                  </th>
+                  <th class="ui-state-default">
+                    Decommissioned Nodes
+                  </th>
+                  <th class="ui-state-default">
+                    Lost Nodes
+                  </th>
+                  <th class="ui-state-default">
+                    Unhealthy Nodes
+                  </th>
+                  <th class="ui-state-default">
+                    Rebooted Nodes
+                  </th>
+                </tr>
+              </thead>
+              <tbody class="ui-widget-content">
+                <tr>
+                  <td>
+                    1241
+                  </td>
+                  <td>
+                    0
+                  </td>
+                  <td>
+                    1
+                  </td>
+                  <td>
+                    1240
+                  </td>
+                  <td>
+                    25
+                  </td>
+                  <td>
+                    264.88 GB
+                  </td>
+                  <td>
+                    273.75 GB
+                  </td>
+                  <td>
+                    33 GB
+                  </td>
+                  <td>
+                    25
+                  </td>
+                  <td>
+                    189
+                  </td>
+                  <td>
+                    3
+                  </td>
+                  <td>
+                    <a href="http://yarn.c-1f59e1e60490e376.cn-hangzhou.emr.aliyuncs.com/cluster/nodes">24</a>
+                  </td>
+                  <td>
+                    <a href="http://yarn.c-1f59e1e60490e376.cn-hangzhou.emr.aliyuncs.com/cluster/nodes/decommissioned">0</a>
+                  </td>
+                  <td>
+                    <a href="http://yarn.c-1f59e1e60490e376.cn-hangzhou.emr.aliyuncs.com/cluster/nodes/lost">0</a>
+                  </td>
+                  <td>
+                    <a href="http://yarn.c-1f59e1e60490e376.cn-hangzhou.emr.aliyuncs.com/cluster/nodes/unhealthy">0</a>
+                  </td>
+                  <td>
+                    <a href="http://yarn.c-1f59e1e60490e376.cn-hangzhou.emr.aliyuncs.com/cluster/nodes/rebooted">0</a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <h3>
+              Scheduler Metrics
+            </h3>
+            <table id="schedulermetricsoverview">
+              <thead class="ui-widget-header">
+                <tr>
+                  <th class="ui-state-default">
+                    Scheduler Type
+                  </th>
+                  <th class="ui-state-default">
+                    Scheduling Resource Type
+                  </th>
+                  <th class="ui-state-default">
+                    Minimum Allocation
+                  </th>
+                  <th class="ui-state-default">
+                    Maximum Allocation
+                  </th>
+                </tr>
+              </thead>
+              <tbody class="ui-widget-content">
+                <tr>
+                  <td>
+                    Capacity Scheduler
+                  </td>
+                  <td>
+                    [MEMORY]
+                  </td>
+                  <td>
+                    &lt;memory:32, vCores:1&gt;
+                  </td>
+                  <td>
+                    &lt;memory:13088, vCores:8&gt;
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div id="nodes_wrapper" class="dataTables_wrapper" role="grid"><div class="fg-toolbar ui-toolbar ui-widget-header ui-corner-tl ui-corner-tr ui-helper-clearfix"><div id="nodes_length" class="dataTables_length"><label>Show <select size="1" name="nodes_length" aria-controls="nodes"><option value="20" selected="selected">20</option><option value="40">40</option><option value="60">60</option><option value="80">80</option><option value="100">100</option></select> entries</label></div><div class="dataTables_filter" id="nodes_filter"><label>Search: <input aria-controls="nodes" type="text"></label></div></div><table id="nodes" class="dataTable" aria-describedby="nodes_info">
+            <thead>
+              <tr role="row"><th class="nodelabels ui-state-default" role="columnheader" tabindex="0" aria-controls="nodes" rowspan="1" colspan="1" style="width: 73.6px;" aria-sort="ascending" aria-label="
+                  Node Labels
+                : activate to sort column descending"><div class="DataTables_sort_wrapper">
+                  Node Labels
+                <span class="DataTables_sort_icon css_right ui-icon ui-icon-triangle-1-n"></span></div></th><th class="rack ui-state-default" role="columnheader" tabindex="0" aria-controls="nodes" rowspan="1" colspan="1" style="width: 88.6px;" aria-label="
+                  Rack
+                : activate to sort column ascending"><div class="DataTables_sort_wrapper">
+                  Rack
+                <span class="DataTables_sort_icon css_right ui-icon ui-icon-carat-2-n-s"></span></div></th><th class="state ui-state-default" role="columnheader" tabindex="0" aria-controls="nodes" rowspan="1" colspan="1" style="width: 75.6px;" aria-label="
+                  Node State
+                : activate to sort column ascending"><div class="DataTables_sort_wrapper">
+                  Node State
+                <span class="DataTables_sort_icon css_right ui-icon ui-icon-carat-2-n-s"></span></div></th><th class="nodeaddress ui-state-default" role="columnheader" tabindex="0" aria-controls="nodes" rowspan="1" colspan="1" style="width: 200.6px;" aria-label="
+                  Node Address
+                : activate to sort column ascending"><div class="DataTables_sort_wrapper">
+                  Node Address
+                <span class="DataTables_sort_icon css_right ui-icon ui-icon-carat-2-n-s"></span></div></th><th class="nodehttpaddress ui-state-default" role="columnheader" tabindex="0" aria-controls="nodes" rowspan="1" colspan="1" style="width: 314.6px;" aria-label="
+                  Node HTTP Address
+                : activate to sort column ascending"><div class="DataTables_sort_wrapper">
+                  Node HTTP Address
+                <span class="DataTables_sort_icon css_right ui-icon ui-icon-carat-2-n-s"></span></div></th><th class="lastHealthUpdate ui-state-default" role="columnheader" tabindex="0" aria-controls="nodes" rowspan="1" colspan="1" style="width: 178.6px;" aria-label="
+                  Last health-update
+                : activate to sort column ascending"><div class="DataTables_sort_wrapper">
+                  Last health-update
+                <span class="DataTables_sort_icon css_right ui-icon ui-icon-carat-2-n-s"></span></div></th><th class="healthReport ui-state-default" role="columnheader" tabindex="0" aria-controls="nodes" rowspan="1" colspan="1" style="width: 143.6px;" aria-label="
+                  Health-report
+                : activate to sort column ascending"><div class="DataTables_sort_wrapper">
+                  Health-report
+                <span class="DataTables_sort_icon css_right ui-icon ui-icon-carat-2-n-s"></span></div></th><th class="containers ui-state-default" role="columnheader" tabindex="0" aria-controls="nodes" rowspan="1" colspan="1" style="width: 73.6px;" aria-label="
+                  Containers
+                : activate to sort column ascending"><div class="DataTables_sort_wrapper">
+                  Containers
+                <span class="DataTables_sort_icon css_right ui-icon ui-icon-carat-2-n-s"></span></div></th><th class="mem ui-state-default" role="columnheader" tabindex="0" aria-controls="nodes" rowspan="1" colspan="1" style="width: 63.6px;" aria-label="
+                  Mem Used
+                : activate to sort column ascending"><div class="DataTables_sort_wrapper">
+                  Mem Used
+                <span class="DataTables_sort_icon css_right ui-icon ui-icon-carat-2-n-s"></span></div></th><th class="mem ui-state-default" role="columnheader" tabindex="0" aria-controls="nodes" rowspan="1" colspan="1" style="width: 62.6px;" aria-label="
+                  Mem Avail
+                : activate to sort column ascending"><div class="DataTables_sort_wrapper">
+                  Mem Avail
+                <span class="DataTables_sort_icon css_right ui-icon ui-icon-carat-2-n-s"></span></div></th><th class="vcores ui-state-default" role="columnheader" tabindex="0" aria-controls="nodes" rowspan="1" colspan="1" style="width: 76.6px;" aria-label="
+                  VCores Used
+                : activate to sort column ascending"><div class="DataTables_sort_wrapper">
+                  VCores Used
+                <span class="DataTables_sort_icon css_right ui-icon ui-icon-carat-2-n-s"></span></div></th><th class="vcores ui-state-default" role="columnheader" tabindex="0" aria-controls="nodes" rowspan="1" colspan="1" style="width: 75.6px;" aria-label="
+                  VCores Avail
+                : activate to sort column ascending"><div class="DataTables_sort_wrapper">
+                  VCores Avail
+                <span class="DataTables_sort_icon css_right ui-icon ui-icon-carat-2-n-s"></span></div></th><th class="nodeManagerVersion ui-state-default" role="columnheader" tabindex="0" aria-controls="nodes" rowspan="1" colspan="1" style="width: 51.6px;" aria-label="
+                  Version
+                : activate to sort column ascending"><div class="DataTables_sort_wrapper">
+                  Version
+                <span class="DataTables_sort_icon css_right ui-icon ui-icon-carat-2-n-s"></span></div></th></tr>
+            </thead>
+            
+          <tbody role="alert" aria-live="polite" aria-relevant="all"><tr class="odd">
+                <td class="  sorting_1">
+                  
+                </td>
+                <td class=" ">
+                  /default-rack
+                </td>
+                <td class=" ">
+                  RUNNING
+                </td>
+                <td class=" ">
+                  emr-worker-2.cluster-36293:45020
+                </td>
+                <td class=" ">
+                  <a href="http://emr-worker-2.cluster-36293.emr.aliyuncs.com:8042/">emr-worker-2.cluster-36293.emr.aliyuncs.com:8042</a>
+                </td>
+                <td class=" ">
+                  <br title="1483293022445">
+                  Mon Jan 02 01:50:22 +0800 2017
+                </td>
+                <td class=" ">
+                  
+                </td>
+                <td class=" ">
+                  1
+                </td>
+                <td class=" ">
+                  <br title="11264">
+                  11 GB
+                </td>
+                <td class=" ">
+                  <br title="1824">
+                  1.78 GB
+                </td>
+                <td class=" ">
+                  1
+                </td>
+                <td class=" ">
+                  7
+                </td>
+                <td class=" ">
+                  2.7.2
+                </td>
+              </tr><tr class="even">
+                <td class="  sorting_1">
+                  
+                </td>
+                <td class=" ">
+                  /default-rack
+                </td>
+                <td class=" ">
+                  RUNNING
+                </td>
+                <td class=" ">
+                  emr-worker-18.cluster-36293:52267
+                </td>
+                <td class=" ">
+                  <a href="http://emr-worker-18.cluster-36293.emr.aliyuncs.com:8042/">emr-worker-18.cluster-36293.emr.aliyuncs.com:8042</a>
+                </td>
+                <td class=" ">
+                  <br title="1483293040126">
+                  Mon Jan 02 01:50:40 +0800 2017
+                </td>
+                <td class=" ">
+                  
+                </td>
+                <td class=" ">
+                  1
+                </td>
+                <td class=" ">
+                  <br title="11264">
+                  11 GB
+                </td>
+                <td class=" ">
+                  <br title="1824">
+                  1.78 GB
+                </td>
+                <td class=" ">
+                  1
+                </td>
+                <td class=" ">
+                  7
+                </td>
+                <td class=" ">
+                  2.7.2
+                </td>
+              </tr><tr class="odd">
+                <td class="  sorting_1">
+                  
+                </td>
+                <td class=" ">
+                  /default-rack
+                </td>
+                <td class=" ">
+                  RUNNING
+                </td>
+                <td class=" ">
+                  emr-worker-10.cluster-36293:49577
+                </td>
+                <td class=" ">
+                  <a href="http://emr-worker-10.cluster-36293.emr.aliyuncs.com:8042/">emr-worker-10.cluster-36293.emr.aliyuncs.com:8042</a>
+                </td>
+                <td class=" ">
+                  <br title="1483292983205">
+                  Mon Jan 02 01:49:43 +0800 2017
+                </td>
+                <td class=" ">
+                  
+                </td>
+                <td class=" ">
+                  1
+                </td>
+                <td class=" ">
+                  <br title="11264">
+                  11 GB
+                </td>
+                <td class=" ">
+                  <br title="1824">
+                  1.78 GB
+                </td>
+                <td class=" ">
+                  1
+                </td>
+                <td class=" ">
+                  7
+                </td>
+                <td class=" ">
+                  2.7.2
+                </td>
+              </tr><tr class="even">
+                <td class="  sorting_1">
+                  
+                </td>
+                <td class=" ">
+                  /default-rack
+                </td>
+                <td class=" ">
+                  RUNNING
+                </td>
+                <td class=" ">
+                  emr-worker-15.cluster-36293:41007
+                </td>
+                <td class=" ">
+                  <a href="http://emr-worker-15.cluster-36293.emr.aliyuncs.com:8042/">emr-worker-15.cluster-36293.emr.aliyuncs.com:8042</a>
+                </td>
+                <td class=" ">
+                  <br title="1483292949421">
+                  Mon Jan 02 01:49:09 +0800 2017
+                </td>
+                <td class=" ">
+                  
+                </td>
+                <td class=" ">
+                  1
+                </td>
+                <td class=" ">
+                  <br title="11264">
+                  11 GB
+                </td>
+                <td class=" ">
+                  <br title="1824">
+                  1.78 GB
+                </td>
+                <td class=" ">
+                  1
+                </td>
+                <td class=" ">
+                  7
+                </td>
+                <td class=" ">
+                  2.7.2
+                </td>
+              </tr><tr class="odd">
+                <td class="  sorting_1">
+                  
+                </td>
+                <td class=" ">
+                  /default-rack
+                </td>
+                <td class=" ">
+                  RUNNING
+                </td>
+                <td class=" ">
+                  emr-worker-3.cluster-36293:34495
+                </td>
+                <td class=" ">
+                  <a href="http://emr-worker-3.cluster-36293.emr.aliyuncs.com:8042/">emr-worker-3.cluster-36293.emr.aliyuncs.com:8042</a>
+                </td>
+                <td class=" ">
+                  <br title="1483293022346">
+                  Mon Jan 02 01:50:22 +0800 2017
+                </td>
+                <td class=" ">
+                  
+                </td>
+                <td class=" ">
+                  1
+                </td>
+                <td class=" ">
+                  <br title="11264">
+                  11 GB
+                </td>
+                <td class=" ">
+                  <br title="1824">
+                  1.78 GB
+                </td>
+                <td class=" ">
+                  1
+                </td>
+                <td class=" ">
+                  7
+                </td>
+                <td class=" ">
+                  2.7.2
+                </td>
+              </tr><tr class="even">
+                <td class="  sorting_1">
+                  
+                </td>
+                <td class=" ">
+                  /default-rack
+                </td>
+                <td class=" ">
+                  RUNNING
+                </td>
+                <td class=" ">
+                  emr-worker-24.cluster-36293:49840
+                </td>
+                <td class=" ">
+                  <a href="http://emr-worker-24.cluster-36293.emr.aliyuncs.com:8042/">emr-worker-24.cluster-36293.emr.aliyuncs.com:8042</a>
+                </td>
+                <td class=" ">
+                  <br title="1483293051404">
+                  Mon Jan 02 01:50:51 +0800 2017
+                </td>
+                <td class=" ">
+                  
+                </td>
+                <td class=" ">
+                  2
+                </td>
+                <td class=" ">
+                  <br title="12160">
+                  11.88 GB
+                </td>
+                <td class=" ">
+                  <br title="928">
+                  928 MB
+                </td>
+                <td class=" ">
+                  2
+                </td>
+                <td class=" ">
+                  6
+                </td>
+                <td class=" ">
+                  2.7.2
+                </td>
+              </tr><tr class="odd">
+                <td class="  sorting_1">
+                  
+                </td>
+                <td class=" ">
+                  /default-rack
+                </td>
+                <td class=" ">
+                  RUNNING
+                </td>
+                <td class=" ">
+                  emr-worker-22.cluster-36293:53502
+                </td>
+                <td class=" ">
+                  <a href="http://emr-worker-22.cluster-36293.emr.aliyuncs.com:8042/">emr-worker-22.cluster-36293.emr.aliyuncs.com:8042</a>
+                </td>
+                <td class=" ">
+                  <br title="1483293021515">
+                  Mon Jan 02 01:50:21 +0800 2017
+                </td>
+                <td class=" ">
+                  
+                </td>
+                <td class=" ">
+                  1
+                </td>
+                <td class=" ">
+                  <br title="11264">
+                  11 GB
+                </td>
+                <td class=" ">
+                  <br title="1824">
+                  1.78 GB
+                </td>
+                <td class=" ">
+                  1
+                </td>
+                <td class=" ">
+                  7
+                </td>
+                <td class=" ">
+                  2.7.2
+                </td>
+              </tr><tr class="even">
+                <td class="  sorting_1">
+                  
+                </td>
+                <td class=" ">
+                  /default-rack
+                </td>
+                <td class=" ">
+                  RUNNING
+                </td>
+                <td class=" ">
+                  emr-worker-21.cluster-36293:49016
+                </td>
+                <td class=" ">
+                  <a href="http://emr-worker-21.cluster-36293.emr.aliyuncs.com:8042/">emr-worker-21.cluster-36293.emr.aliyuncs.com:8042</a>
+                </td>
+                <td class=" ">
+                  <br title="1483293051761">
+                  Mon Jan 02 01:50:51 +0800 2017
+                </td>
+                <td class=" ">
+                  
+                </td>
+                <td class=" ">
+                  1
+                </td>
+                <td class=" ">
+                  <br title="11264">
+                  11 GB
+                </td>
+                <td class=" ">
+                  <br title="1824">
+                  1.78 GB
+                </td>
+                <td class=" ">
+                  1
+                </td>
+                <td class=" ">
+                  7
+                </td>
+                <td class=" ">
+                  2.7.2
+                </td>
+              </tr><tr class="odd">
+                <td class="  sorting_1">
+                  
+                </td>
+                <td class=" ">
+                  /default-rack
+                </td>
+                <td class=" ">
+                  RUNNING
+                </td>
+                <td class=" ">
+                  emr-worker-17.cluster-36293:42182
+                </td>
+                <td class=" ">
+                  <a href="http://emr-worker-17.cluster-36293.emr.aliyuncs.com:8042/">emr-worker-17.cluster-36293.emr.aliyuncs.com:8042</a>
+                </td>
+                <td class=" ">
+                  <br title="1483292950019">
+                  Mon Jan 02 01:49:10 +0800 2017
+                </td>
+                <td class=" ">
+                  
+                </td>
+                <td class=" ">
+                  1
+                </td>
+                <td class=" ">
+                  <br title="11264">
+                  11 GB
+                </td>
+                <td class=" ">
+                  <br title="1824">
+                  1.78 GB
+                </td>
+                <td class=" ">
+                  1
+                </td>
+                <td class=" ">
+                  7
+                </td>
+                <td class=" ">
+                  2.7.2
+                </td>
+              </tr><tr class="even">
+                <td class="  sorting_1">
+                  
+                </td>
+                <td class=" ">
+                  /default-rack
+                </td>
+                <td class=" ">
+                  RUNNING
+                </td>
+                <td class=" ">
+                  emr-worker-14.cluster-36293:48124
+                </td>
+                <td class=" ">
+                  <a href="http://emr-worker-14.cluster-36293.emr.aliyuncs.com:8042/">emr-worker-14.cluster-36293.emr.aliyuncs.com:8042</a>
+                </td>
+                <td class=" ">
+                  <br title="1483292984235">
+                  Mon Jan 02 01:49:44 +0800 2017
+                </td>
+                <td class=" ">
+                  
+                </td>
+                <td class=" ">
+                  1
+                </td>
+                <td class=" ">
+                  <br title="11264">
+                  11 GB
+                </td>
+                <td class=" ">
+                  <br title="1824">
+                  1.78 GB
+                </td>
+                <td class=" ">
+                  1
+                </td>
+                <td class=" ">
+                  7
+                </td>
+                <td class=" ">
+                  2.7.2
+                </td>
+              </tr><tr class="odd">
+                <td class="  sorting_1">
+                  
+                </td>
+                <td class=" ">
+                  /default-rack
+                </td>
+                <td class=" ">
+                  RUNNING
+                </td>
+                <td class=" ">
+                  emr-worker-11.cluster-36293:39421
+                </td>
+                <td class=" ">
+                  <a href="http://emr-worker-11.cluster-36293.emr.aliyuncs.com:8042/">emr-worker-11.cluster-36293.emr.aliyuncs.com:8042</a>
+                </td>
+                <td class=" ">
+                  <br title="1483292982817">
+                  Mon Jan 02 01:49:42 +0800 2017
+                </td>
+                <td class=" ">
+                  
+                </td>
+                <td class=" ">
+                  1
+                </td>
+                <td class=" ">
+                  <br title="11264">
+                  11 GB
+                </td>
+                <td class=" ">
+                  <br title="1824">
+                  1.78 GB
+                </td>
+                <td class=" ">
+                  1
+                </td>
+                <td class=" ">
+                  7
+                </td>
+                <td class=" ">
+                  2.7.2
+                </td>
+              </tr><tr class="even">
+                <td class="  sorting_1">
+                  
+                </td>
+                <td class=" ">
+                  /default-rack
+                </td>
+                <td class=" ">
+                  RUNNING
+                </td>
+                <td class=" ">
+                  emr-worker-23.cluster-36293:35900
+                </td>
+                <td class=" ">
+                  <a href="http://emr-worker-23.cluster-36293.emr.aliyuncs.com:8042/">emr-worker-23.cluster-36293.emr.aliyuncs.com:8042</a>
+                </td>
+                <td class=" ">
+                  <br title="1483293062907">
+                  Mon Jan 02 01:51:02 +0800 2017
+                </td>
+                <td class=" ">
+                  
+                </td>
+                <td class=" ">
+                  1
+                </td>
+                <td class=" ">
+                  <br title="11264">
+                  11 GB
+                </td>
+                <td class=" ">
+                  <br title="1824">
+                  1.78 GB
+                </td>
+                <td class=" ">
+                  1
+                </td>
+                <td class=" ">
+                  7
+                </td>
+                <td class=" ">
+                  2.7.2
+                </td>
+              </tr><tr class="odd">
+                <td class="  sorting_1">
+                  
+                </td>
+                <td class=" ">
+                  /default-rack
+                </td>
+                <td class=" ">
+                  RUNNING
+                </td>
+                <td class=" ">
+                  emr-worker-7.cluster-36293:45945
+                </td>
+                <td class=" ">
+                  <a href="http://emr-worker-7.cluster-36293.emr.aliyuncs.com:8042/">emr-worker-7.cluster-36293.emr.aliyuncs.com:8042</a>
+                </td>
+                <td class=" ">
+                  <br title="1483292991479">
+                  Mon Jan 02 01:49:51 +0800 2017
+                </td>
+                <td class=" ">
+                  
+                </td>
+                <td class=" ">
+                  1
+                </td>
+                <td class=" ">
+                  <br title="11264">
+                  11 GB
+                </td>
+                <td class=" ">
+                  <br title="1824">
+                  1.78 GB
+                </td>
+                <td class=" ">
+                  1
+                </td>
+                <td class=" ">
+                  7
+                </td>
+                <td class=" ">
+                  2.7.2
+                </td>
+              </tr><tr class="even">
+                <td class="  sorting_1">
+                  
+                </td>
+                <td class=" ">
+                  /default-rack
+                </td>
+                <td class=" ">
+                  RUNNING
+                </td>
+                <td class=" ">
+                  emr-worker-6.cluster-36293:49928
+                </td>
+                <td class=" ">
+                  <a href="http://emr-worker-6.cluster-36293.emr.aliyuncs.com:8042/">emr-worker-6.cluster-36293.emr.aliyuncs.com:8042</a>
+                </td>
+                <td class=" ">
+                  <br title="1483292991840">
+                  Mon Jan 02 01:49:51 +0800 2017
+                </td>
+                <td class=" ">
+                  
+                </td>
+                <td class=" ">
+                  1
+                </td>
+                <td class=" ">
+                  <br title="11264">
+                  11 GB
+                </td>
+                <td class=" ">
+                  <br title="1824">
+                  1.78 GB
+                </td>
+                <td class=" ">
+                  1
+                </td>
+                <td class=" ">
+                  7
+                </td>
+                <td class=" ">
+                  2.7.2
+                </td>
+              </tr><tr class="odd">
+                <td class="  sorting_1">
+                  
+                </td>
+                <td class=" ">
+                  /default-rack
+                </td>
+                <td class=" ">
+                  RUNNING
+                </td>
+                <td class=" ">
+                  emr-worker-1.cluster-36293:38902
+                </td>
+                <td class=" ">
+                  <a href="http://emr-worker-1.cluster-36293.emr.aliyuncs.com:8042/">emr-worker-1.cluster-36293.emr.aliyuncs.com:8042</a>
+                </td>
+                <td class=" ">
+                  <br title="1483293022437">
+                  Mon Jan 02 01:50:22 +0800 2017
+                </td>
+                <td class=" ">
+                  
+                </td>
+                <td class=" ">
+                  1
+                </td>
+                <td class=" ">
+                  <br title="11264">
+                  11 GB
+                </td>
+                <td class=" ">
+                  <br title="1824">
+                  1.78 GB
+                </td>
+                <td class=" ">
+                  1
+                </td>
+                <td class=" ">
+                  7
+                </td>
+                <td class=" ">
+                  2.7.2
+                </td>
+              </tr><tr class="even">
+                <td class="  sorting_1">
+                  
+                </td>
+                <td class=" ">
+                  /default-rack
+                </td>
+                <td class=" ">
+                  RUNNING
+                </td>
+                <td class=" ">
+                  emr-worker-9.cluster-36293:60023
+                </td>
+                <td class=" ">
+                  <a href="http://emr-worker-9.cluster-36293.emr.aliyuncs.com:8042/">emr-worker-9.cluster-36293.emr.aliyuncs.com:8042</a>
+                </td>
+                <td class=" ">
+                  <br title="1483292992105">
+                  Mon Jan 02 01:49:52 +0800 2017
+                </td>
+                <td class=" ">
+                  
+                </td>
+                <td class=" ">
+                  1
+                </td>
+                <td class=" ">
+                  <br title="11264">
+                  11 GB
+                </td>
+                <td class=" ">
+                  <br title="1824">
+                  1.78 GB
+                </td>
+                <td class=" ">
+                  1
+                </td>
+                <td class=" ">
+                  7
+                </td>
+                <td class=" ">
+                  2.7.2
+                </td>
+              </tr><tr class="odd">
+                <td class="  sorting_1">
+                  
+                </td>
+                <td class=" ">
+                  /default-rack
+                </td>
+                <td class=" ">
+                  RUNNING
+                </td>
+                <td class=" ">
+                  emr-worker-13.cluster-36293:56442
+                </td>
+                <td class=" ">
+                  <a href="http://emr-worker-13.cluster-36293.emr.aliyuncs.com:8042/">emr-worker-13.cluster-36293.emr.aliyuncs.com:8042</a>
+                </td>
+                <td class=" ">
+                  <br title="1483292982935">
+                  Mon Jan 02 01:49:42 +0800 2017
+                </td>
+                <td class=" ">
+                  
+                </td>
+                <td class=" ">
+                  1
+                </td>
+                <td class=" ">
+                  <br title="11264">
+                  11 GB
+                </td>
+                <td class=" ">
+                  <br title="1824">
+                  1.78 GB
+                </td>
+                <td class=" ">
+                  1
+                </td>
+                <td class=" ">
+                  7
+                </td>
+                <td class=" ">
+                  2.7.2
+                </td>
+              </tr><tr class="even">
+                <td class="  sorting_1">
+                  
+                </td>
+                <td class=" ">
+                  /default-rack
+                </td>
+                <td class=" ">
+                  RUNNING
+                </td>
+                <td class=" ">
+                  emr-worker-20.cluster-36293:47982
+                </td>
+                <td class=" ">
+                  <a href="http://emr-worker-20.cluster-36293.emr.aliyuncs.com:8042/">emr-worker-20.cluster-36293.emr.aliyuncs.com:8042</a>
+                </td>
+                <td class=" ">
+                  <br title="1483293048864">
+                  Mon Jan 02 01:50:48 +0800 2017
+                </td>
+                <td class=" ">
+                  
+                </td>
+                <td class=" ">
+                  1
+                </td>
+                <td class=" ">
+                  <br title="11264">
+                  11 GB
+                </td>
+                <td class=" ">
+                  <br title="1824">
+                  1.78 GB
+                </td>
+                <td class=" ">
+                  1
+                </td>
+                <td class=" ">
+                  7
+                </td>
+                <td class=" ">
+                  2.7.2
+                </td>
+              </tr><tr class="odd">
+                <td class="  sorting_1">
+                  
+                </td>
+                <td class=" ">
+                  /default-rack
+                </td>
+                <td class=" ">
+                  RUNNING
+                </td>
+                <td class=" ">
+                  emr-worker-8.cluster-36293:50430
+                </td>
+                <td class=" ">
+                  <a href="http://emr-worker-8.cluster-36293.emr.aliyuncs.com:8042/">emr-worker-8.cluster-36293.emr.aliyuncs.com:8042</a>
+                </td>
+                <td class=" ">
+                  <br title="1483292989192">
+                  Mon Jan 02 01:49:49 +0800 2017
+                </td>
+                <td class=" ">
+                  
+                </td>
+                <td class=" ">
+                  1
+                </td>
+                <td class=" ">
+                  <br title="11264">
+                  11 GB
+                </td>
+                <td class=" ">
+                  <br title="1824">
+                  1.78 GB
+                </td>
+                <td class=" ">
+                  1
+                </td>
+                <td class=" ">
+                  7
+                </td>
+                <td class=" ">
+                  2.7.2
+                </td>
+              </tr><tr class="even">
+                <td class="  sorting_1">
+                  
+                </td>
+                <td class=" ">
+                  /default-rack
+                </td>
+                <td class=" ">
+                  RUNNING
+                </td>
+                <td class=" ">
+                  emr-worker-12.cluster-36293:58828
+                </td>
+                <td class=" ">
+                  <a href="http://emr-worker-12.cluster-36293.emr.aliyuncs.com:8042/">emr-worker-12.cluster-36293.emr.aliyuncs.com:8042</a>
+                </td>
+                <td class=" ">
+                  <br title="1483292952879">
+                  Mon Jan 02 01:49:12 +0800 2017
+                </td>
+                <td class=" ">
+                  
+                </td>
+                <td class=" ">
+                  1
+                </td>
+                <td class=" ">
+                  <br title="11264">
+                  11 GB
+                </td>
+                <td class=" ">
+                  <br title="1824">
+                  1.78 GB
+                </td>
+                <td class=" ">
+                  1
+                </td>
+                <td class=" ">
+                  7
+                </td>
+                <td class=" ">
+                  2.7.2
+                </td>
+              </tr></tbody></table><div class="fg-toolbar ui-toolbar ui-widget-header ui-corner-bl ui-corner-br ui-helper-clearfix"><div class="dataTables_info" id="nodes_info">Showing 1 to 20 of 24 entries</div><div class="dataTables_paginate fg-buttonset ui-buttonset fg-buttonset-multi ui-buttonset-multi paging_full_numbers" id="nodes_paginate"><a tabindex="0" class="first ui-corner-tl ui-corner-bl fg-button ui-button ui-state-default ui-state-disabled" id="nodes_first">First</a><a tabindex="0" class="previous fg-button ui-button ui-state-default ui-state-disabled" id="nodes_previous">Previous</a><span><a tabindex="0" class="fg-button ui-button ui-state-default ui-state-disabled">1</a><a tabindex="0" class="fg-button ui-button ui-state-default">2</a></span><a tabindex="0" class="next fg-button ui-button ui-state-default" id="nodes_next">Next</a><a tabindex="0" class="last ui-corner-tr ui-corner-br fg-button ui-button ui-state-default" id="nodes_last">Last</a></div></div></div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+</body></html>

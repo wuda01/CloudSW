@@ -1,0 +1,1079 @@
+AlignmentRecord(UniRef100_G2XUL9, 392M, 2108, 1039, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A7E6K0, 392M, 2094, 1039, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_W9CCG7, 392M, 2079, 1034, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_K1WVI0, 388M, 1982, 990, 0, 387, 0, 387, 190)
+AlignmentRecord(UniRef100_A0A0C3D2X0, 392M, 1975, 996, 0, 391, 0, 391, 194)
+
+topK:5 Query:UniRef100_Q4X0L2
+AlignmentRecord(UniRef100_Q4X0L2, 392M, 2150, 1041, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A0A0J5PYL8, 319M, 1767, 658, 73, 335, 73, 391, 138)
+AlignmentRecord(UniRef100_A0A0S7DUI3, 319M, 1752, 648, 73, 335, 73, 391, 138)
+AlignmentRecord(UniRef100_A1DHL4, 319M, 1751, 654, 73, 335, 73, 391, 138)
+AlignmentRecord(UniRef100_A0A0K8LG67, 319M, 1733, 640, 73, 335, 73, 391, 138)
+
+topK:5 Query:UniRef100_W9Z3K9
+AlignmentRecord(UniRef100_W9Z3K9, 392M, 2110, 1041, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_W9YAN3, 392M, 1743, 899, 0, 393, 0, 391, 196)
+AlignmentRecord(UniRef100_H6BNH0, 392M, 1699, 890, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A0A0D2JC67, 205M1I186M, 1615, 871, 0, 390, 0, 391, 193)
+AlignmentRecord(UniRef100_A0A0D2DGG9, 194M4I194M, 1547, 809, 0, 387, 0, 391, 190)
+
+topK:5 Query:UniRef100_C5M6U4
+AlignmentRecord(UniRef100_C5M6U4, 392M, 2102, 1040, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_C4YIA7, 20M1I369M, 1796, 873, 2, 392, 2, 391, 195)
+AlignmentRecord(UniRef100_Q5AHJ9, 20M1I369M, 1793, 870, 2, 392, 2, 391, 195)
+AlignmentRecord(UniRef100_A0A0A6KWM1, 17M1I372M, 1792, 866, 2, 392, 2, 391, 195)
+AlignmentRecord(UniRef100_B9WB98, 18M1I369M, 1788, 870, 4, 392, 4, 391, 195)
+
+topK:5 Query:UniRef100_G2Y5H4
+AlignmentRecord(UniRef100_G2Y5H4, 392M, 2052, 1037, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A7EJV3, 392M, 1990, 1020, 0, 928, 0, 391, 731)
+AlignmentRecord(UniRef100_W9C6J0, 391M, 1954, 1006, 0, 926, 0, 390, 729)
+AlignmentRecord(UniRef100_A0A194XTT2, 392M, 1888, 973, 0, 931, 0, 391, 734)
+AlignmentRecord(UniRef100_K1WB96, 392M, 1873, 986, 0, 931, 0, 391, 734)
+
+topK:5 Query:UniRef100_Q4WRX7
+AlignmentRecord(UniRef100_Q4WRX7, 392M, 2192, 1111, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A0A0J5PH90, 392M, 2188, 1110, 0, 436, 0, 391, 239)
+AlignmentRecord(UniRef100_A1D1U2, 6M5D386M, 2121, 1091, 0, 396, 0, 391, 199)
+AlignmentRecord(UniRef100_A0A0S7E2L3, 392M, 2117, 1095, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A0A0K8LNH0, 90M2I102M1I197M, 2062, 1055, 0, 388, 0, 391, 191)
+
+topK:5 Query:UniRef100_G2YHU2
+AlignmentRecord(UniRef100_G2YHU2, 392M, 2114, 1078, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_W9CJA4, 258M2I132M, 1946, 1009, 0, 389, 0, 391, 192)
+AlignmentRecord(UniRef100_A7E422, 113M37I111M6D82M1D48M, 1638, 768, 0, 360, 0, 390, 163)
+AlignmentRecord(UniRef100_A0A194XNL1, 19M2D218M6D83M1D49M, 1416, 708, 23, 395, 23, 391, 197)
+AlignmentRecord(UniRef100_A0A0C3H9D6, 22M3I15M2D160M1D63M5D7M3I8M4D61M1D47M, 1374, 729, 2, 396, 2, 390, 199)
+
+topK:5 Query:UniRef100_C5M8Q0
+AlignmentRecord(UniRef100_C5M8Q0, 392M, 2066, 1006, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_M3K5S0, 29M1D6M1D356M, 1696, 768, 0, 392, 0, 390, 195)
+AlignmentRecord(UniRef100_B9WIY6, 29M7D7M1I141M3D10M5D204M, 1685, 738, 0, 405, 0, 391, 208)
+AlignmentRecord(UniRef100_C4YSM3, 29M5D7M1I144M2D211M, 1680, 726, 0, 397, 0, 391, 200)
+AlignmentRecord(UniRef100_A0A0A6KAL2, 29M5D7M1I144M2D211M, 1680, 726, 0, 397, 0, 391, 200)
+
+topK:5 Query:UniRef100_W9Z313
+AlignmentRecord(UniRef100_W9Z313, 392M, 2128, 1065, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A0A0D2IUZ8, 16M3D3M2I47M1I323M, 1638, 688, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_H6BJU9, 195M1D197M, 1620, 655, 0, 392, 0, 391, 194)
+AlignmentRecord(UniRef100_A0A0D2I6K5, 67M2I127M1D196M, 1610, 690, 0, 390, 0, 391, 193)
+AlignmentRecord(UniRef100_A0A178CQ81, 46M1D21M2I127M1D196M, 1604, 679, 0, 391, 0, 391, 194)
+
+topK:5 Query:UniRef100_G2YZ18
+AlignmentRecord(UniRef100_G2YZ18, 392M, 2098, 1039, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A7EVN5, 392M, 2003, 995, 0, 499, 0, 391, 302)
+AlignmentRecord(UniRef100_W9CBM2, 2M1D214M1D11M1D165M, 1963, 986, 0, 464, 0, 391, 267)
+AlignmentRecord(UniRef100_A0A194X2X0, 213M1I169M, 1765, 877, 1, 388, 1, 383, 191)
+AlignmentRecord(UniRef100_S3DE49, 211M4I110M2I11M4I47M, 1644, 827, 1, 449, 1, 389, 252)
+
+topK:5 Query:UniRef100_W9XNF5
+AlignmentRecord(UniRef100_W9XNF5, 392M, 2092, 1045, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A0A0D2BGL5, 24M2I145M1I97M9D100M3I4M2D8M2I6M, 1601, 897, 0, 394, 0, 391, 197)
+AlignmentRecord(UniRef100_A0A0D2FYH9, 24M2I144M1I97M7D95M4I15M, 1590, 824, 0, 381, 0, 381, 184)
+AlignmentRecord(UniRef100_W9XLP5, 21M2I148M1I86M4D12M4D93M1I8M3I11M, 1589, 832, 0, 386, 0, 385, 188)
+AlignmentRecord(UniRef100_A0A0D2CAA0, 24M2I144M1I97M7D116M2I6M, 1578, 876, 0, 393, 0, 391, 196)
+
+topK:5 Query:UniRef100_W9XNZ5
+AlignmentRecord(UniRef100_W9XNZ5, 392M, 2103, 1021, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A0A0D2ILX7, 68M3I316M, 1616, 681, 0, 383, 0, 386, 182)
+AlignmentRecord(UniRef100_W9XPD7, 52M1I319M, 1608, 679, 18, 371, 18, 389, 174)
+AlignmentRecord(UniRef100_A0A0D2KIW7, 70M1I313M, 1542, 691, 0, 382, 0, 383, 185)
+AlignmentRecord(UniRef100_W9WLX8, 70M1I313M, 1539, 664, 0, 382, 0, 383, 185)
+
+topK:5 Query:UniRef100_Q4WVP7
+AlignmentRecord(UniRef100_Q4WVP7, 392M, 2154, 1082, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A0A0J5Q1D5, 392M, 2129, 1068, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A1DDQ0, 365M2I8M1I16M, 1946, 982, 0, 388, 0, 391, 191)
+AlignmentRecord(UniRef100_A0A0S7E3N9, 365M2I25M, 1932, 957, 0, 389, 0, 391, 192)
+AlignmentRecord(UniRef100_A0A0K8L3D6, 365M2I25M, 1892, 934, 0, 389, 0, 391, 192)
+
+topK:5 Query:UniRef100_M7U8Z4
+AlignmentRecord(UniRef100_M7U8Z4, 392M, 2182, 1072, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_W9CTF1, 66M4D48M1D106M1I2M1I70M24I8M8I27M4D6M9D4M1D17M, 1158, 585, 0, 372, 0, 387, 175)
+AlignmentRecord(UniRef100_A7EU11, 182M1I8M15I8M4I60M, 868, 264, 111, 257, 111, 388, 60)
+AlignmentRecord(UniRef100_S3DWW7, 3M2D17M6I23M6I14M4D8M5D16M1D12M1D17M3D79M9D4M4D7M11I4M2I13M2D5M1D7M3I15M, 303, 80, 1, 287, 1, 272, 83)
+AlignmentRecord(UniRef100_S3D309, 16M4I22M6D7M1I6M2D3M2D17M9I91M7D4M9D13M5D9M1D6M2D4M5I39M, 277, 107, 29, 364, 29, 284, 161)
+
+topK:5 Query:UniRef100_Q4WGF5
+AlignmentRecord(UniRef100_Q4WGF5, 392M, 2085, 1020, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A1DCE8, 20M1D372M, 2035, 1008, 0, 392, 0, 391, 195)
+AlignmentRecord(UniRef100_A0A0S7DM69, 20M1D372M, 2025, 1008, 0, 392, 0, 391, 195)
+AlignmentRecord(UniRef100_A0A0K8LE33, 20M1D368M, 1967, 961, 0, 388, 0, 387, 191)
+AlignmentRecord(UniRef100_A1CDH1, 12M1D8M1D279M1I92M, 1876, 959, 0, 392, 0, 391, 195)
+
+topK:5 Query:UniRef100_W9Z1E5
+AlignmentRecord(UniRef100_W9Z1E5, 392M, 2133, 1056, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_W9Z3P9, 234M5I68M3D28M8I18M1D20M4I4M, 1714, 929, 0, 375, 0, 388, 178)
+AlignmentRecord(UniRef100_H6C2K6, 228M4I79M5D30M16I23M, 1587, 843, 0, 557, 0, 379, 360)
+AlignmentRecord(UniRef100_A0A0D2IJJ8, 234M5I69M2D9M1D13M, 1466, 631, 0, 496, 0, 329, 299)
+AlignmentRecord(UniRef100_A0A0D1ZAA7, 225M4I77M13D5M1I19M15I14M6D19M, 1457, 875, 0, 552, 0, 378, 355)
+
+topK:5 Query:UniRef100_B2ADM6
+AlignmentRecord(UniRef100_B2ADM6, 392M, 2133, 1045, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A0A090CPK0, 68M18D131M19I174M, 1955, 920, 0, 390, 0, 391, 193)
+AlignmentRecord(UniRef100_A0A175W5G0, 68M29D61M20I48M19I15M1D60M1I22M3D4M11D15M, 749, 312, 4, 341, 4, 336, 144)
+AlignmentRecord(UniRef100_A0A194VC52, 49M8D16M1D75M1D58M19I19M1I31M7I13M2I19M1D10M9I8M2D53M, 557, 393, 1, 365, 1, 389, 562)
+AlignmentRecord(UniRef100_A0A179I7A2, 62M4I4M7D74M1D53M19I20M1I31M1D4M, 527, 132, 1, 258, 1, 272, 61)
+
+topK:5 Query:UniRef100_C5MD91
+AlignmentRecord(UniRef100_C5MD91, 392M, 2141, 1050, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_B9W8E1, 101M1D180M3D37M2D5M7D69M, 1378, 762, 0, 404, 0, 391, 206)
+AlignmentRecord(UniRef100_A0A0A6L2Y7, 105M1D176M1D31M2I4M3D5M7D69M, 1359, 759, 0, 401, 0, 391, 202)
+AlignmentRecord(UniRef100_Q59PV5, 105M1D176M1D31M2I4M3D5M7D69M, 1360, 759, 0, 401, 0, 391, 202)
+AlignmentRecord(UniRef100_Q59PX9, 105M1D176M1D33M3D5M1D4M4D69M, 1351, 753, 0, 401, 0, 391, 202)
+
+topK:5 Query:UniRef100_Q4WWZ5
+AlignmentRecord(UniRef100_Q4WWZ5, 392M, 2122, 1038, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_B0XYM7, 392M, 2121, 1038, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A1D7T5, 392M, 2092, 1026, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A0A0S7DLB1, 392M, 2070, 1001, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A0A0K8LD69, 392M, 2034, 993, 0, 391, 0, 391, 194)
+
+topK:5 Query:UniRef100_M7UCQ6
+AlignmentRecord(UniRef100_M7UCQ6, 392M, 2283, 1140, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_G2XZB1, 392M, 2279, 1136, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A7EFR4, 47M17I79M11I93M38I107M, 1687, 706, 0, 325, 0, 391, 125)
+AlignmentRecord(UniRef100_W9CTS4, 23M2D13M2I9M49I47M11I79M8I2M26I123M, 1414, 415, 0, 297, 0, 391, 93)
+AlignmentRecord(UniRef100_A0A179HBS9, 32M7D41M1D8M1I19M4I15M3I13M2D14M1I3M17I19M10I11M2D14M4D15M1I11M1D4M12D24M8I10M3I25M, 635, 328, 6, 308, 6, 331, 109)
+
+topK:5 Query:UniRef100_M7V2E2
+AlignmentRecord(UniRef100_M7V2E2, 392M, 2136, 1065, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_G2YSU6, 392M, 2123, 1060, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A7F7X6, 364M, 1852, 844, 28, 363, 28, 391, 166)
+AlignmentRecord(UniRef100_W9CFJ0, 86M29I277M, 1730, 741, 0, 362, 0, 391, 165)
+AlignmentRecord(UniRef100_A0A0C3HYV1, 135M3I218M1D8M, 1449, 594, 28, 361, 28, 391, 164)
+
+BLOSUM62	/queryD/D9L392N40	/Luniref/DL9Line.fasta	256	1	5	11	1	
+topK:5 Query:UniRef100_S2JIB5                                                   
+AlignmentRecord(UniRef100_S2JIB5, 392M, 2136, 1098, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A0A168Q3X9, 169M1D188M1D35M, 2027, 1063, 0, 393, 0, 391, 196)
+AlignmentRecord(UniRef100_A0A0C9M6E2, 169M1D191M3D32M, 1984, 1061, 0, 395, 0, 391, 198)
+AlignmentRecord(UniRef100_A0A0B7NSV9, 22M1D2M2D45M12I66M2I24M2D5M7D23M4I11M1I11M19I22M9I17M1I35M2D27M4I7M1D11M, 1018, 619, 0, 342, 0, 379, 140)
+AlignmentRecord(UniRef100_A0A0C7BKV7, 3M1D19M1I134M10I7M5I37M27I18M10I30M4D18M1D10M1D26M4I7M5I20M, 863, 610, 0, 338, 0, 390, 141)
+
+topK:5 Query:UniRef100_A0A177A2S8
+AlignmentRecord(UniRef100_A0A177A2S8, 392M, 2078, 1035, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A0A177A9G5, 8M3D2M8D244M, 1272, 249, 138, 310, 138, 391, 113)
+AlignmentRecord(UniRef100_L8FXF9, 171M, 894, 0, 221, 170, 221, 391, 0)
+AlignmentRecord(UniRef100_A0A177A0Y6, 2M2D29M7D37M5I10M1D11M1I140M12I21M2I16M1D16M9I21M3I47M, 790, 337, 0, 360, 0, 381, 163)
+AlignmentRecord(UniRef100_A0A177A2V3, 20M1I9M4I22M1I8M2I12M1D3M3I47M30I85M1D23M2I12M1I11M10I26M16D46M, 690, 255, 5, 348, 5, 382, 151)
+
+topK:5 Query:UniRef100_A0A0F4GJW2
+AlignmentRecord(UniRef100_A0A0F4GJW2, 392M, 1982, 974, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_F9XNJ0, 392M, 1952, 956, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A0A139H680, 264M1D84M3D44M, 1214, 673, 0, 395, 0, 391, 198)
+AlignmentRecord(UniRef100_A0A139H4Y7, 264M1D85M3D43M, 1191, 653, 0, 395, 0, 391, 198)
+AlignmentRecord(UniRef100_M3AH46, 264M1D84M3D44M, 1185, 646, 0, 395, 0, 391, 198)
+
+topK:5 Query:UniRef100_A0A0F4GK02
+AlignmentRecord(UniRef100_A0A0F4GK02, 392M, 2023, 1012, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_F9WXN5, 392M, 1951, 982, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_M3C188, 107M1D55M3D3M1I184M3I18M3I18M, 1362, 638, 0, 388, 0, 391, 191)
+AlignmentRecord(UniRef100_Q0UA54, 59M2D48M1D55M1D186M3I17M5I18M, 1348, 603, 0, 386, 0, 390, 189)
+AlignmentRecord(UniRef100_A0A139H217, 107M1D58M2D72M1D113M3I19M5I15M, 1303, 632, 0, 541, 0, 391, 344)
+
+topK:5 Query:UniRef100_A0A0F4GFF4
+AlignmentRecord(UniRef100_A0A0F4GFF4, 392M, 2147, 1045, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_F9X805, 376M, 1976, 903, 15, 377, 15, 390, 180)
+AlignmentRecord(UniRef100_M3A189, 209M1I166M, 1701, 705, 15, 376, 15, 390, 179)
+AlignmentRecord(UniRef100_A0A139H354, 209M1I166M, 1660, 684, 15, 388, 15, 390, 191)
+AlignmentRecord(UniRef100_A0A139IN61, 209M1I53M6I107M, 1606, 635, 15, 370, 15, 390, 173)
+
+topK:5 Query:UniRef100_A0A0I9XEW1
+AlignmentRecord(UniRef100_A0A0I9XEW1, 392M, 2050, 986, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_W7MRX3, 391M, 1969, 935, 0, 390, 0, 390, 193)
+AlignmentRecord(UniRef100_X0JM95, 11M1I41M1I303M1D32M, 1746, 805, 0, 387, 0, 388, 190)
+AlignmentRecord(UniRef100_W9JLI0, 11M1I41M1I86M16I201M1D32M, 1649, 700, 0, 371, 0, 388, 174)
+AlignmentRecord(UniRef100_X0LHU8, 45M1I124M19I195M, 1629, 740, 8, 387, 8, 391, 190)
+
+topK:5 Query:UniRef100_S2K2M3
+AlignmentRecord(UniRef100_S2K2M3, 392M, 2024, 993, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A0A168IXM9, 371M1D9M, 1777, 1592, 0, 380, 0, 379, 576)
+AlignmentRecord(UniRef100_A0A0C9MNM2, 392M, 1758, 916, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A0A0B7N954, 359M, 1577, 742, 0, 358, 0, 358, 161)
+AlignmentRecord(UniRef100_I1C7D7, 174M1I40M2D106M1D68M, 1052, 575, 2, 394, 2, 390, 192)
+
+topK:5 Query:UniRef100_A0A0I9Y7X6
+AlignmentRecord(UniRef100_A0A0I9Y7X6, 392M, 2110, 1058, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_S0DXB3, 392M, 2105, 1053, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_W9J8S2, 309M2D83M, 2035, 1027, 0, 425, 0, 391, 228)
+AlignmentRecord(UniRef100_W9KZ87, 309M2D83M, 2030, 1024, 0, 425, 0, 391, 228)
+AlignmentRecord(UniRef100_X0LCY9, 309M2D83M, 2026, 1023, 0, 425, 0, 391, 228)
+
+topK:5 Query:UniRef100_A0A0F4GX45
+AlignmentRecord(UniRef100_A0A0F4GX45, 392M, 2136, 1061, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_F9X6B3, 392M, 2094, 1057, 0, 461, 0, 391, 264)
+AlignmentRecord(UniRef100_A0A139HJU6, 364M1I4M1I22M, 1918, 1006, 0, 459, 0, 391, 262)
+AlignmentRecord(UniRef100_M2ZXX0, 364M1I4M1I22M, 1909, 1008, 0, 459, 0, 391, 262)
+AlignmentRecord(UniRef100_N1PR65, 349M2I41M, 1894, 995, 0, 459, 0, 391, 262)
+
+topK:5 Query:UniRef100_S2JR65
+AlignmentRecord(UniRef100_S2JR65, 392M, 2202, 1145, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A0A168N1A8, 19M1I55M3D8M6D11M1I5M2D7M1D285M, 2009, 1010, 0, 401, 0, 391, 204)
+AlignmentRecord(UniRef100_A0A0C9LTQ6, 24M1I50M3D17M2I6M1D7M1D251M, 1835, 845, 0, 359, 0, 357, 162)
+AlignmentRecord(UniRef100_A0A0B7N0C1, 60M4D272M3D12M10D48M, 1814, 1012, 0, 408, 0, 391, 210)
+AlignmentRecord(UniRef100_A0A0C7BII8, 15M1D6M2D3M1I6M2D8M1I7M1D14M1I12M1D6M2I4M1I6M3I4M1I10M2I230M5I6M1D33M, 1460, 684, 0, 377, 0, 386, 180)
+
+topK:5 Query:UniRef100_L2GNE6
+AlignmentRecord(UniRef100_L2GNE6, 392M, 2106, 1075, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A0A0M3K2W8, 22M16D7M3D27M2D13M3D80M5D36M, 118, 62, 95, 1121, 95, 279, 888)
+AlignmentRecord(UniRef100_I6RZH7, 32M2D15M4I6M1I5M1I14M3I4M2I33M2D39M6I8M1D9M, 112, 24, 81, 257, 81, 262, 36)
+AlignmentRecord(UniRef100_A0A198FSL0, 19M5I28M1D22M2I37M2I8M, 112, 0, 66, 188, 66, 188, 0)
+AlignmentRecord(UniRef100_J9I631, 18M1I7M2I27M2D19M2D17M1D17M1D48M, 102, 47, 124, 334, 124, 279, 802)
+
+topK:5 Query:UniRef100_A0A141PZB2
+AlignmentRecord(UniRef100_A0A141PZB2, 392M, 2137, 1057, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_Q0CWW4, 392M, 2101, 1895, 0, 788, 0, 391, 984)
+AlignmentRecord(UniRef100_A2QYC2, 392M, 2093, 1887, 0, 788, 0, 391, 984)
+AlignmentRecord(UniRef100_A0A117E303, 392M, 2090, 1884, 0, 788, 0, 391, 984)
+AlignmentRecord(UniRef100_A1CG49, 392M, 2083, 1877, 0, 789, 0, 391, 985)
+
+topK:5 Query:UniRef100_A0A176ZZT9
+AlignmentRecord(UniRef100_A0A176ZZT9, 392M, 2107, 1044, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_L8FQ44, 245M15D147M, 2082, 1121, 0, 406, 0, 391, 209)
+AlignmentRecord(UniRef100_A0A094HDT4, 245M15D129M, 1748, 1565, 0, 388, 0, 373, 587)
+AlignmentRecord(UniRef100_A0A094EID0, 71M1I173M15D129M, 1740, 1557, 0, 387, 0, 373, 586)
+AlignmentRecord(UniRef100_A0A094HSD8, 108M1D9M1D41M1D87M15D129M, 1678, 1495, 0, 391, 0, 373, 590)
+
+topK:5 Query:UniRef100_A0A0F4GHI1
+AlignmentRecord(UniRef100_A0A0F4GHI1, 392M, 2084, 1030, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_N1Q2Y9, 190M14D196M, 1688, 839, 6, 406, 6, 391, 196)
+AlignmentRecord(UniRef100_N1QJS8, 194M2D12M9D6M1D178M, 1678, 860, 2, 401, 2, 391, 193)
+AlignmentRecord(UniRef100_M2N5N6, 119M1D73M16D195M, 1633, 816, 5, 413, 5, 391, 214)
+AlignmentRecord(UniRef100_A0A139HXV6, 196M5D13M1D178M, 1620, 839, 5, 398, 5, 391, 197)
+
+topK:5 Query:UniRef100_A0A0I9Y9K1
+AlignmentRecord(UniRef100_A0A0I9Y9K1, 392M, 2064, 997, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_S0EJ06, 392M, 2029, 967, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_W9JUC6, 392M, 1885, 909, 0, 391, 0, 391, 193)
+AlignmentRecord(UniRef100_W9HR16, 392M, 1843, 890, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_X0JSP0, 66M8I318M, 1818, 848, 0, 383, 0, 391, 186)
+
+topK:5 Query:UniRef100_A0A0J0CJ97
+AlignmentRecord(UniRef100_A0A0J0CJ97, 392M, 2157, 1094, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_S0DUF2, 392M, 2149, 1090, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_F9FTG3, 184M8D208M, 2119, 1060, 0, 399, 0, 391, 202)
+AlignmentRecord(UniRef100_N4TZ35, 184M34D208M, 2093, 1034, 0, 425, 0, 391, 228)
+AlignmentRecord(UniRef100_A0A0D2XDQ1, 184M32D208M, 2092, 1036, 0, 423, 0, 391, 226)
+
+topK:5 Query:UniRef100_C5M453
+AlignmentRecord(UniRef100_C5M453, 392M, 2105, 1056, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_B9WL62, 237M2D149M4D6M, 1620, 866, 0, 397, 0, 391, 200)
+AlignmentRecord(UniRef100_A0A0A6JYV9, 237M2D149M4D6M, 1604, 864, 0, 397, 0, 391, 200)
+AlignmentRecord(UniRef100_Q59LU6, 237M2D149M4D6M, 1604, 864, 0, 397, 0, 391, 200)
+AlignmentRecord(UniRef100_M3IQP4, 237M2D148M, 1587, 817, 0, 386, 0, 384, 189)
+
+topK:5 Query:UniRef100_M7UDA0
+AlignmentRecord(UniRef100_M7UDA0, 392M, 2078, 1045, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_G2YAA7, 90M2D302M, 2066, 1033, 0, 393, 0, 391, 196)
+AlignmentRecord(UniRef100_W9CMZ4, 392M, 2020, 1000, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A7ES72, 392M, 2006, 1005, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A0A194X647, 14M5D20M7I351M, 1821, 822, 0, 389, 0, 391, 192)
+
+topK:5 Query:UniRef100_G2YLV2
+AlignmentRecord(UniRef100_G2YLV2, 392M, 2063, 1028, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_W9C2C1, 20M1I8M2I69M1I245M, 1564, 594, 46, 341, 46, 391, 144)
+AlignmentRecord(UniRef100_A7ESR1, 60M1I245M, 1391, 451, 86, 304, 86, 391, 107)
+AlignmentRecord(UniRef100_A0A194X7Y6, 78M2D140M1I98M, 986, 358, 75, 330, 75, 391, 132)
+AlignmentRecord(UniRef100_S3CS45, 7M5I10M15I3M1D46M3D12M5D10M1D138M4D9M4D83M2I6M, 939, 349, 46, 341, 46, 391, 144)
+
+topK:5 Query:UniRef100_G2XUL9
+AlignmentRecord(UniRef100_G2XUL9, 392M, 2108, 1039, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A7E6K0, 392M, 2094, 1039, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_W9CCG7, 392M, 2079, 1034, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_K1WVI0, 388M, 1982, 990, 0, 387, 0, 387, 190)
+AlignmentRecord(UniRef100_A0A0C3D2X0, 392M, 1975, 996, 0, 391, 0, 391, 194)
+
+topK:5 Query:UniRef100_Q4X0L2
+AlignmentRecord(UniRef100_Q4X0L2, 392M, 2150, 1041, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A0A0J5PYL8, 319M, 1767, 658, 73, 335, 73, 391, 138)
+AlignmentRecord(UniRef100_A0A0S7DUI3, 319M, 1752, 648, 73, 335, 73, 391, 138)
+AlignmentRecord(UniRef100_A1DHL4, 319M, 1751, 654, 73, 335, 73, 391, 138)
+AlignmentRecord(UniRef100_A0A0K8LG67, 319M, 1733, 640, 73, 335, 73, 391, 138)
+
+topK:5 Query:UniRef100_W9Z3K9
+AlignmentRecord(UniRef100_W9Z3K9, 392M, 2110, 1041, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_W9YAN3, 392M, 1743, 899, 0, 393, 0, 391, 196)
+AlignmentRecord(UniRef100_H6BNH0, 392M, 1699, 890, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A0A0D2JC67, 205M1I186M, 1615, 871, 0, 390, 0, 391, 193)
+AlignmentRecord(UniRef100_A0A0D2DGG9, 194M4I194M, 1547, 809, 0, 387, 0, 391, 190)
+
+topK:5 Query:UniRef100_C5M6U4
+AlignmentRecord(UniRef100_C5M6U4, 392M, 2102, 1040, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_C4YIA7, 20M1I369M, 1796, 873, 2, 392, 2, 391, 195)
+AlignmentRecord(UniRef100_Q5AHJ9, 20M1I369M, 1793, 870, 2, 392, 2, 391, 195)
+AlignmentRecord(UniRef100_A0A0A6KWM1, 17M1I372M, 1792, 866, 2, 392, 2, 391, 195)
+AlignmentRecord(UniRef100_B9WB98, 18M1I369M, 1788, 870, 4, 392, 4, 391, 195)
+
+topK:5 Query:UniRef100_G2Y5H4
+AlignmentRecord(UniRef100_G2Y5H4, 392M, 2052, 1037, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A7EJV3, 392M, 1990, 1020, 0, 928, 0, 391, 731)
+AlignmentRecord(UniRef100_W9C6J0, 391M, 1954, 1006, 0, 926, 0, 390, 729)
+AlignmentRecord(UniRef100_A0A194XTT2, 392M, 1888, 973, 0, 931, 0, 391, 734)
+AlignmentRecord(UniRef100_K1WB96, 392M, 1873, 986, 0, 931, 0, 391, 734)
+
+topK:5 Query:UniRef100_Q4WRX7
+AlignmentRecord(UniRef100_Q4WRX7, 392M, 2192, 1111, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A0A0J5PH90, 392M, 2188, 1110, 0, 436, 0, 391, 239)
+AlignmentRecord(UniRef100_A1D1U2, 6M5D386M, 2121, 1091, 0, 396, 0, 391, 199)
+AlignmentRecord(UniRef100_A0A0S7E2L3, 392M, 2117, 1095, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A0A0K8LNH0, 90M2I102M1I197M, 2062, 1055, 0, 388, 0, 391, 191)
+
+topK:5 Query:UniRef100_G2YHU2
+AlignmentRecord(UniRef100_G2YHU2, 392M, 2114, 1078, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_W9CJA4, 258M2I132M, 1946, 1009, 0, 389, 0, 391, 192)
+AlignmentRecord(UniRef100_A7E422, 113M37I111M6D82M1D48M, 1638, 768, 0, 360, 0, 390, 163)
+AlignmentRecord(UniRef100_A0A194XNL1, 19M2D218M6D83M1D49M, 1416, 708, 23, 395, 23, 391, 197)
+AlignmentRecord(UniRef100_A0A0C3H9D6, 22M3I15M2D160M1D63M5D7M3I8M4D61M1D47M, 1374, 729, 2, 396, 2, 390, 199)
+
+topK:5 Query:UniRef100_C5M8Q0
+AlignmentRecord(UniRef100_C5M8Q0, 392M, 2066, 1006, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_M3K5S0, 29M1D6M1D356M, 1696, 768, 0, 392, 0, 390, 195)
+AlignmentRecord(UniRef100_B9WIY6, 29M7D7M1I141M3D10M5D204M, 1685, 738, 0, 405, 0, 391, 208)
+AlignmentRecord(UniRef100_C4YSM3, 29M5D7M1I144M2D211M, 1680, 726, 0, 397, 0, 391, 200)
+AlignmentRecord(UniRef100_A0A0A6KAL2, 29M5D7M1I144M2D211M, 1680, 726, 0, 397, 0, 391, 200)
+
+topK:5 Query:UniRef100_W9Z313
+AlignmentRecord(UniRef100_W9Z313, 392M, 2128, 1065, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A0A0D2IUZ8, 16M3D3M2I47M1I323M, 1638, 688, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_H6BJU9, 195M1D197M, 1620, 655, 0, 392, 0, 391, 194)
+AlignmentRecord(UniRef100_A0A0D2I6K5, 67M2I127M1D196M, 1610, 690, 0, 390, 0, 391, 193)
+AlignmentRecord(UniRef100_A0A178CQ81, 46M1D21M2I127M1D196M, 1604, 679, 0, 391, 0, 391, 194)
+
+topK:5 Query:UniRef100_G2YZ18
+AlignmentRecord(UniRef100_G2YZ18, 392M, 2098, 1039, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A7EVN5, 392M, 2003, 995, 0, 499, 0, 391, 302)
+AlignmentRecord(UniRef100_W9CBM2, 2M1D214M1D11M1D165M, 1963, 986, 0, 464, 0, 391, 267)
+AlignmentRecord(UniRef100_A0A194X2X0, 213M1I169M, 1765, 877, 1, 388, 1, 383, 191)
+AlignmentRecord(UniRef100_S3DE49, 211M4I110M2I11M4I47M, 1644, 827, 1, 449, 1, 389, 252)
+
+topK:5 Query:UniRef100_W9XNF5
+AlignmentRecord(UniRef100_W9XNF5, 392M, 2092, 1045, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A0A0D2BGL5, 24M2I145M1I97M9D100M3I4M2D8M2I6M, 1601, 897, 0, 394, 0, 391, 197)
+AlignmentRecord(UniRef100_A0A0D2FYH9, 24M2I144M1I97M7D95M4I15M, 1590, 824, 0, 381, 0, 381, 184)
+AlignmentRecord(UniRef100_W9XLP5, 21M2I148M1I86M4D12M4D93M1I8M3I11M, 1589, 832, 0, 386, 0, 385, 188)
+AlignmentRecord(UniRef100_A0A0D2CAA0, 24M2I144M1I97M7D116M2I6M, 1578, 876, 0, 393, 0, 391, 196)
+
+topK:5 Query:UniRef100_W9XNZ5
+AlignmentRecord(UniRef100_W9XNZ5, 392M, 2103, 1021, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A0A0D2ILX7, 68M3I316M, 1616, 681, 0, 383, 0, 386, 182)
+AlignmentRecord(UniRef100_W9XPD7, 52M1I319M, 1608, 679, 18, 371, 18, 389, 174)
+AlignmentRecord(UniRef100_A0A0D2KIW7, 70M1I313M, 1542, 691, 0, 382, 0, 383, 185)
+AlignmentRecord(UniRef100_W9WLX8, 70M1I313M, 1539, 664, 0, 382, 0, 383, 185)
+
+topK:5 Query:UniRef100_Q4WVP7
+AlignmentRecord(UniRef100_Q4WVP7, 392M, 2154, 1082, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A0A0J5Q1D5, 392M, 2129, 1068, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A1DDQ0, 365M2I8M1I16M, 1946, 982, 0, 388, 0, 391, 191)
+AlignmentRecord(UniRef100_A0A0S7E3N9, 365M2I25M, 1932, 957, 0, 389, 0, 391, 192)
+AlignmentRecord(UniRef100_A0A0K8L3D6, 365M2I25M, 1892, 934, 0, 389, 0, 391, 192)
+
+topK:5 Query:UniRef100_M7U8Z4
+AlignmentRecord(UniRef100_M7U8Z4, 392M, 2182, 1072, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_W9CTF1, 66M4D48M1D106M1I2M1I70M24I8M8I27M4D6M9D4M1D17M, 1158, 585, 0, 372, 0, 387, 175)
+AlignmentRecord(UniRef100_A7EU11, 182M1I8M15I8M4I60M, 868, 264, 111, 257, 111, 388, 60)
+AlignmentRecord(UniRef100_S3DWW7, 3M2D17M6I23M6I14M4D8M5D16M1D12M1D17M3D79M9D4M4D7M11I4M2I13M2D5M1D7M3I15M, 303, 80, 1, 287, 1, 272, 83)
+AlignmentRecord(UniRef100_S3D309, 16M4I22M6D7M1I6M2D3M2D17M9I91M7D4M9D13M5D9M1D6M2D4M5I39M, 277, 107, 29, 364, 29, 284, 161)
+
+topK:5 Query:UniRef100_Q4WGF5
+AlignmentRecord(UniRef100_Q4WGF5, 392M, 2085, 1020, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A1DCE8, 20M1D372M, 2035, 1008, 0, 392, 0, 391, 195)
+AlignmentRecord(UniRef100_A0A0S7DM69, 20M1D372M, 2025, 1008, 0, 392, 0, 391, 195)
+AlignmentRecord(UniRef100_A0A0K8LE33, 20M1D368M, 1967, 961, 0, 388, 0, 387, 191)
+AlignmentRecord(UniRef100_A1CDH1, 12M1D8M1D279M1I92M, 1876, 959, 0, 392, 0, 391, 195)
+
+topK:5 Query:UniRef100_W9Z1E5
+AlignmentRecord(UniRef100_W9Z1E5, 392M, 2133, 1056, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_W9Z3P9, 234M5I68M3D28M8I18M1D20M4I4M, 1714, 929, 0, 375, 0, 388, 178)
+AlignmentRecord(UniRef100_H6C2K6, 228M4I79M5D30M16I23M, 1587, 843, 0, 557, 0, 379, 360)
+AlignmentRecord(UniRef100_A0A0D2IJJ8, 234M5I69M2D9M1D13M, 1466, 631, 0, 496, 0, 329, 299)
+AlignmentRecord(UniRef100_A0A0D1ZAA7, 225M4I77M13D5M1I19M15I14M6D19M, 1457, 875, 0, 552, 0, 378, 355)
+
+topK:5 Query:UniRef100_B2ADM6
+AlignmentRecord(UniRef100_B2ADM6, 392M, 2133, 1045, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A0A090CPK0, 68M18D131M19I174M, 1955, 920, 0, 390, 0, 391, 193)
+AlignmentRecord(UniRef100_A0A175W5G0, 68M29D61M20I48M19I15M1D60M1I22M3D4M11D15M, 749, 312, 4, 341, 4, 336, 144)
+AlignmentRecord(UniRef100_A0A194VC52, 49M8D16M1D75M1D58M19I19M1I31M7I13M2I19M1D10M9I8M2D53M, 557, 393, 1, 365, 1, 389, 562)
+AlignmentRecord(UniRef100_A0A179I7A2, 62M4I4M7D74M1D53M19I20M1I31M1D4M, 527, 132, 1, 258, 1, 272, 61)
+
+topK:5 Query:UniRef100_C5MD91
+AlignmentRecord(UniRef100_C5MD91, 392M, 2141, 1050, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_B9W8E1, 101M1D180M3D37M2D5M7D69M, 1378, 762, 0, 404, 0, 391, 206)
+AlignmentRecord(UniRef100_A0A0A6L2Y7, 105M1D176M1D31M2I4M3D5M7D69M, 1359, 759, 0, 401, 0, 391, 202)
+AlignmentRecord(UniRef100_Q59PV5, 105M1D176M1D31M2I4M3D5M7D69M, 1360, 759, 0, 401, 0, 391, 202)
+AlignmentRecord(UniRef100_Q59PX9, 105M1D176M1D33M3D5M1D4M4D69M, 1351, 753, 0, 401, 0, 391, 202)
+
+topK:5 Query:UniRef100_Q4WWZ5
+AlignmentRecord(UniRef100_Q4WWZ5, 392M, 2122, 1038, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_B0XYM7, 392M, 2121, 1038, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A1D7T5, 392M, 2092, 1026, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A0A0S7DLB1, 392M, 2070, 1001, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A0A0K8LD69, 392M, 2034, 993, 0, 391, 0, 391, 194)
+
+topK:5 Query:UniRef100_M7UCQ6
+AlignmentRecord(UniRef100_M7UCQ6, 392M, 2283, 1140, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_G2XZB1, 392M, 2279, 1136, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A7EFR4, 47M17I79M11I93M38I107M, 1687, 706, 0, 325, 0, 391, 125)
+AlignmentRecord(UniRef100_W9CTS4, 23M2D13M2I9M49I47M11I79M8I2M26I123M, 1414, 415, 0, 297, 0, 391, 93)
+AlignmentRecord(UniRef100_A0A179HBS9, 32M7D41M1D8M1I19M4I15M3I13M2D14M1I3M17I19M10I11M2D14M4D15M1I11M1D4M12D24M8I10M3I25M, 635, 328, 6, 308, 6, 331, 109)
+
+topK:5 Query:UniRef100_M7V2E2
+AlignmentRecord(UniRef100_M7V2E2, 392M, 2136, 1065, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_G2YSU6, 392M, 2123, 1060, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A7F7X6, 364M, 1852, 844, 28, 363, 28, 391, 166)
+AlignmentRecord(UniRef100_W9CFJ0, 86M29I277M, 1730, 741, 0, 362, 0, 391, 165)
+AlignmentRecord(UniRef100_A0A0C3HYV1, 135M3I218M1D8M, 1449, 594, 28, 361, 28, 391, 164)
+
+BLOSUM62	/queryD/D9L392N40	/Luniref/DL9Line.fasta	256	1	5	11	1	
+[Stage 11:======>                                               (32 + 16) / 256]Exception in thread "main" org.apache.spark.SparkException: Job 11 cancelled because SparkContext was shut down
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$cleanUpAfterSchedulerStop$1.apply(DAGScheduler.scala:806)
+	at org.apache.spark.scheduler.DAGScheduler$$anonfun$cleanUpAfterSchedulerStop$1.apply(DAGScheduler.scala:804)
+	at scala.collection.mutable.HashSet.foreach(HashSet.scala:79)
+	at org.apache.spark.scheduler.DAGScheduler.cleanUpAfterSchedulerStop(DAGScheduler.scala:804)
+	at org.apache.spark.scheduler.DAGSchedulerEventProcessLoop.onStop(DAGScheduler.scala:1658)
+	at org.apache.spark.util.EventLoop.stop(EventLoop.scala:84)
+	at org.apache.spark.scheduler.DAGScheduler.stop(DAGScheduler.scala:1581)
+	at org.apache.spark.SparkContext$$anonfun$stop$9.apply$mcV$sp(SparkContext.scala:1740)
+	at org.apache.spark.util.Utils$.tryLogNonFatalError(Utils.scala:1219)
+	at org.apache.spark.SparkContext.stop(SparkContext.scala:1739)
+	at org.apache.spark.SparkContext$$anonfun$3.apply$mcV$sp(SparkContext.scala:596)
+	at org.apache.spark.util.SparkShutdownHook.run(ShutdownHookManager.scala:267)
+	at org.apache.spark.util.SparkShutdownHookManager$$anonfun$runAll$1$$anonfun$apply$mcV$sp$1.apply$mcV$sp(ShutdownHookManager.scala:239)
+	at org.apache.spark.util.SparkShutdownHookManager$$anonfun$runAll$1$$anonfun$apply$mcV$sp$1.apply(ShutdownHookManager.scala:239)
+	at org.apache.spark.util.SparkShutdownHookManager$$anonfun$runAll$1$$anonfun$apply$mcV$sp$1.apply(ShutdownHookManager.scala:239)
+	at org.apache.spark.util.Utils$.logUncaughtExceptions(Utils.scala:1801)
+	at org.apache.spark.util.SparkShutdownHookManager$$anonfun$runAll$1.apply$mcV$sp(ShutdownHookManager.scala:239)
+	at org.apache.spark.util.SparkShutdownHookManager$$anonfun$runAll$1.apply(ShutdownHookManager.scala:239)
+	at org.apache.spark.util.SparkShutdownHookManager$$anonfun$runAll$1.apply(ShutdownHookManager.scala:239)
+	at scala.util.Try$.apply(Try.scala:161)
+	at org.apache.spark.util.SparkShutdownHookManager.runAll(ShutdownHookManager.scala:239)
+	at org.apache.spark.util.SparkShutdownHookManager$$anon$2.run(ShutdownHookManager.scala:218)
+	at org.apache.hadoop.util.ShutdownHookManager$1.run(ShutdownHookManager.java:54)
+	at org.apache.spark.scheduler.DAGScheduler.runJob(DAGScheduler.scala:620)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:1832)
+	at org.apache.spark.SparkContext.runJob(SparkContext.scala:1952)
+	at org.apache.spark.rdd.RDD$$anonfun$reduce$1.apply(RDD.scala:1025)
+	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:150)
+	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:111)
+	at org.apache.spark.rdd.RDD.withScope(RDD.scala:316)
+	at org.apache.spark.rdd.RDD.reduce(RDD.scala:1007)
+	at org.apache.spark.rdd.RDD$$anonfun$takeOrdered$1.apply(RDD.scala:1397)
+	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:150)
+	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:111)
+	at org.apache.spark.rdd.RDD.withScope(RDD.scala:316)
+	at org.apache.spark.rdd.RDD.takeOrdered(RDD.scala:1384)
+	at org.apache.spark.rdd.RDD$$anonfun$top$1.apply(RDD.scala:1365)
+	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:150)
+	at org.apache.spark.rdd.RDDOperationScope$.withScope(RDDOperationScope.scala:111)
+	at org.apache.spark.rdd.RDD.withScope(RDD.scala:316)
+	at org.apache.spark.rdd.RDD.top(RDD.scala:1364)
+	at org.dsa.core.DSW2ATM.align(DSW2ATM.scala:53)
+	at org.dsa.core.DSASequenceAlignment$$anonfun$run$1.apply(DSASequenceAlignment.scala:43)
+	at org.dsa.core.DSASequenceAlignment$$anonfun$run$1.apply(DSASequenceAlignment.scala:42)
+	at scala.collection.IndexedSeqOptimized$class.foreach(IndexedSeqOptimized.scala:33)
+	at scala.collection.mutable.ArrayOps$ofRef.foreach(ArrayOps.scala:108)
+	at org.dsa.core.DSASequenceAlignment.run(DSASequenceAlignment.scala:42)
+	at org.dsa.core.DSW2ATM$.main(DSW2ATM.scala:169)
+	at org.dsa.time.aliyunDSW2ATMQueryTime$$anonfun$main$1$$anonfun$apply$mcVI$sp$1.apply$mcVI$sp(aliyunDSW2ATMQueryTime.scala:19)
+	at scala.collection.immutable.Range.foreach$mVc$sp(Range.scala:141)
+	at org.dsa.time.aliyunDSW2ATMQueryTime$$anonfun$main$1.apply$mcVI$sp(aliyunDSW2ATMQueryTime.scala:14)
+	at scala.collection.immutable.Range.foreach$mVc$sp(Range.scala:141)
+	at org.dsa.time.aliyunDSW2ATMQueryTime$.main(aliyunDSW2ATMQueryTime.scala:13)
+	at org.dsa.time.aliyunDSW2ATMQueryTime.main(aliyunDSW2ATMQueryTime.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.spark.deploy.SparkSubmit$.org$apache$spark$deploy$SparkSubmit$$runMain(SparkSubmit.scala:731)
+	at org.apache.spark.deploy.SparkSubmit$.doRunMain$1(SparkSubmit.scala:181)
+	at org.apache.spark.deploy.SparkSubmit$.submit(SparkSubmit.scala:206)
+	at org.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:121)
+	at org.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala)
+
+Connection closed by foreign host.
+
+Disconnected from remote host(ali) at 00:46:02.
+
+Type `help' to learn how to use Xshell prompt.
+[c:\~]$ 
+
+Connecting to 116.62.54.37:22...
+Connection established.
+To escape to local shell, press 'Ctrl+Alt+]'.
+
+Last login: Sun Jan  1 00:46:04 2017 from 58.210.35.226
+
+Welcome to aliyun Elastic Compute Service!
+
+[root@emr-header-1 ~]# su hadoop
+[hadoop@emr-header-1 root]$ cd
+[hadoop@emr-header-1 ~]$ tail -f aliyunDSW2atmtimequeryHDFSyarnclienttime201701010047D9L392N40M10G
+tail: cannot open `aliyunDSW2atmtimequeryHDFSyarnclienttime201701010047D9L392N40M10G' for reading: No such file or directory
+[hadoop@emr-header-1 ~]$ tail -f aliyunDSW2atmtimequeryHDFSyarnclienttime201701010047D9L392N40M10G.txt 
+BLOSUM62	/queryD/D9L392N40	/Luniref/DL9Line.fasta	256	1	5	11	1	
+topK:5 Query:UniRef100_S2JIB5                                                   
+AlignmentRecord(UniRef100_S2JIB5, 392M, 2136, 1098, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A0A168Q3X9, 169M1D188M1D35M, 2027, 1063, 0, 393, 0, 391, 196)
+AlignmentRecord(UniRef100_A0A0C9M6E2, 169M1D191M3D32M, 1984, 1061, 0, 395, 0, 391, 198)
+AlignmentRecord(UniRef100_A0A0B7NSV9, 22M1D2M2D45M12I66M2I24M2D5M7D23M4I11M1I11M19I22M9I17M1I35M2D27M4I7M1D11M, 1018, 619, 0, 342, 0, 379, 140)
+AlignmentRecord(UniRef100_A0A0C7BKV7, 3M1D19M1I134M10I7M5I37M27I18M10I30M4D18M1D10M1D26M4I7M5I20M, 863, 610, 0, 338, 0, 390, 141)
+
+topK:5 Query:UniRef100_A0A177A2S8
+AlignmentRecord(UniRef100_A0A177A2S8, 392M, 2078, 1035, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A0A177A9G5, 8M3D2M8D244M, 1272, 249, 138, 310, 138, 391, 113)
+AlignmentRecord(UniRef100_L8FXF9, 171M, 894, 0, 221, 170, 221, 391, 0)
+AlignmentRecord(UniRef100_A0A177A0Y6, 2M2D29M7D37M5I10M1D11M1I140M12I21M2I16M1D16M9I21M3I47M, 790, 337, 0, 360, 0, 381, 163)
+AlignmentRecord(UniRef100_A0A177A2V3, 20M1I9M4I22M1I8M2I12M1D3M3I47M30I85M1D23M2I12M1I11M10I26M16D46M, 690, 255, 5, 348, 5, 382, 151)
+
+topK:5 Query:UniRef100_A0A0F4GJW2
+AlignmentRecord(UniRef100_A0A0F4GJW2, 392M, 1982, 974, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_F9XNJ0, 392M, 1952, 956, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A0A139H680, 264M1D84M3D44M, 1214, 673, 0, 395, 0, 391, 198)
+AlignmentRecord(UniRef100_A0A139H4Y7, 264M1D85M3D43M, 1191, 653, 0, 395, 0, 391, 198)
+AlignmentRecord(UniRef100_M3AH46, 264M1D84M3D44M, 1185, 646, 0, 395, 0, 391, 198)
+
+topK:5 Query:UniRef100_A0A0F4GK02
+AlignmentRecord(UniRef100_A0A0F4GK02, 392M, 2023, 1012, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_F9WXN5, 392M, 1951, 982, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_M3C188, 107M1D55M3D3M1I184M3I18M3I18M, 1362, 638, 0, 388, 0, 391, 191)
+AlignmentRecord(UniRef100_Q0UA54, 59M2D48M1D55M1D186M3I17M5I18M, 1348, 603, 0, 386, 0, 390, 189)
+AlignmentRecord(UniRef100_A0A139H217, 107M1D58M2D72M1D113M3I19M5I15M, 1303, 632, 0, 541, 0, 391, 344)
+
+topK:5 Query:UniRef100_A0A0F4GFF4
+AlignmentRecord(UniRef100_A0A0F4GFF4, 392M, 2147, 1045, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_F9X805, 376M, 1976, 903, 15, 377, 15, 390, 180)
+AlignmentRecord(UniRef100_M3A189, 209M1I166M, 1701, 705, 15, 376, 15, 390, 179)
+AlignmentRecord(UniRef100_A0A139H354, 209M1I166M, 1660, 684, 15, 388, 15, 390, 191)
+AlignmentRecord(UniRef100_A0A139IN61, 209M1I53M6I107M, 1606, 635, 15, 370, 15, 390, 173)
+
+topK:5 Query:UniRef100_A0A0I9XEW1
+AlignmentRecord(UniRef100_A0A0I9XEW1, 392M, 2050, 986, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_W7MRX3, 391M, 1969, 935, 0, 390, 0, 390, 193)
+AlignmentRecord(UniRef100_X0JM95, 11M1I41M1I303M1D32M, 1746, 805, 0, 387, 0, 388, 190)
+AlignmentRecord(UniRef100_W9JLI0, 11M1I41M1I86M16I201M1D32M, 1649, 700, 0, 371, 0, 388, 174)
+AlignmentRecord(UniRef100_X0LHU8, 45M1I124M19I195M, 1629, 740, 8, 387, 8, 391, 190)
+
+topK:5 Query:UniRef100_S2K2M3
+AlignmentRecord(UniRef100_S2K2M3, 392M, 2024, 993, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A0A168IXM9, 371M1D9M, 1777, 1592, 0, 380, 0, 379, 576)
+AlignmentRecord(UniRef100_A0A0C9MNM2, 392M, 1758, 916, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A0A0B7N954, 359M, 1577, 742, 0, 358, 0, 358, 161)
+AlignmentRecord(UniRef100_I1C7D7, 174M1I40M2D106M1D68M, 1052, 575, 2, 394, 2, 390, 192)
+
+topK:5 Query:UniRef100_A0A0I9Y7X6
+AlignmentRecord(UniRef100_A0A0I9Y7X6, 392M, 2110, 1058, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_S0DXB3, 392M, 2105, 1053, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_W9J8S2, 309M2D83M, 2035, 1027, 0, 425, 0, 391, 228)
+AlignmentRecord(UniRef100_W9KZ87, 309M2D83M, 2030, 1024, 0, 425, 0, 391, 228)
+AlignmentRecord(UniRef100_X0LCY9, 309M2D83M, 2026, 1023, 0, 425, 0, 391, 228)
+
+topK:5 Query:UniRef100_A0A0F4GX45
+AlignmentRecord(UniRef100_A0A0F4GX45, 392M, 2136, 1061, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_F9X6B3, 392M, 2094, 1057, 0, 461, 0, 391, 264)
+AlignmentRecord(UniRef100_A0A139HJU6, 364M1I4M1I22M, 1918, 1006, 0, 459, 0, 391, 262)
+AlignmentRecord(UniRef100_M2ZXX0, 364M1I4M1I22M, 1909, 1008, 0, 459, 0, 391, 262)
+AlignmentRecord(UniRef100_N1PR65, 349M2I41M, 1894, 995, 0, 459, 0, 391, 262)
+
+topK:5 Query:UniRef100_S2JR65
+AlignmentRecord(UniRef100_S2JR65, 392M, 2202, 1145, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A0A168N1A8, 19M1I55M3D8M6D11M1I5M2D7M1D285M, 2009, 1010, 0, 401, 0, 391, 204)
+AlignmentRecord(UniRef100_A0A0C9LTQ6, 24M1I50M3D17M2I6M1D7M1D251M, 1835, 845, 0, 359, 0, 357, 162)
+AlignmentRecord(UniRef100_A0A0B7N0C1, 60M4D272M3D12M10D48M, 1814, 1012, 0, 408, 0, 391, 210)
+AlignmentRecord(UniRef100_A0A0C7BII8, 15M1D6M2D3M1I6M2D8M1I7M1D14M1I12M1D6M2I4M1I6M3I4M1I10M2I230M5I6M1D33M, 1460, 684, 0, 377, 0, 386, 180)
+
+topK:5 Query:UniRef100_L2GNE6
+AlignmentRecord(UniRef100_L2GNE6, 392M, 2106, 1075, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A0A0M3K2W8, 22M16D7M3D27M2D13M3D80M5D36M, 118, 62, 95, 1121, 95, 279, 888)
+AlignmentRecord(UniRef100_I6RZH7, 32M2D15M4I6M1I5M1I14M3I4M2I33M2D39M6I8M1D9M, 112, 24, 81, 257, 81, 262, 36)
+AlignmentRecord(UniRef100_A0A198FSL0, 19M5I28M1D22M2I37M2I8M, 112, 0, 66, 188, 66, 188, 0)
+AlignmentRecord(UniRef100_J9I631, 18M1I7M2I27M2D19M2D17M1D17M1D48M, 102, 47, 124, 334, 124, 279, 802)
+
+topK:5 Query:UniRef100_A0A141PZB2
+AlignmentRecord(UniRef100_A0A141PZB2, 392M, 2137, 1057, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_Q0CWW4, 392M, 2101, 1895, 0, 788, 0, 391, 984)
+AlignmentRecord(UniRef100_A2QYC2, 392M, 2093, 1887, 0, 788, 0, 391, 984)
+AlignmentRecord(UniRef100_A0A117E303, 392M, 2090, 1884, 0, 788, 0, 391, 984)
+AlignmentRecord(UniRef100_A1CG49, 392M, 2083, 1877, 0, 789, 0, 391, 985)
+
+topK:5 Query:UniRef100_A0A176ZZT9
+AlignmentRecord(UniRef100_A0A176ZZT9, 392M, 2107, 1044, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_L8FQ44, 245M15D147M, 2082, 1121, 0, 406, 0, 391, 209)
+AlignmentRecord(UniRef100_A0A094HDT4, 245M15D129M, 1748, 1565, 0, 388, 0, 373, 587)
+AlignmentRecord(UniRef100_A0A094EID0, 71M1I173M15D129M, 1740, 1557, 0, 387, 0, 373, 586)
+AlignmentRecord(UniRef100_A0A094HSD8, 108M1D9M1D41M1D87M15D129M, 1678, 1495, 0, 391, 0, 373, 590)
+
+topK:5 Query:UniRef100_A0A0F4GHI1
+AlignmentRecord(UniRef100_A0A0F4GHI1, 392M, 2084, 1030, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_N1Q2Y9, 190M14D196M, 1688, 839, 6, 406, 6, 391, 196)
+AlignmentRecord(UniRef100_N1QJS8, 194M2D12M9D6M1D178M, 1678, 860, 2, 401, 2, 391, 193)
+AlignmentRecord(UniRef100_M2N5N6, 119M1D73M16D195M, 1633, 816, 5, 413, 5, 391, 214)
+AlignmentRecord(UniRef100_A0A139HXV6, 196M5D13M1D178M, 1620, 839, 5, 398, 5, 391, 197)
+
+topK:5 Query:UniRef100_A0A0I9Y9K1
+AlignmentRecord(UniRef100_A0A0I9Y9K1, 392M, 2064, 997, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_S0EJ06, 392M, 2029, 967, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_W9JUC6, 392M, 1885, 909, 0, 391, 0, 391, 193)
+AlignmentRecord(UniRef100_W9HR16, 392M, 1843, 890, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_X0JSP0, 66M8I318M, 1818, 848, 0, 383, 0, 391, 186)
+
+topK:5 Query:UniRef100_A0A0J0CJ97
+AlignmentRecord(UniRef100_A0A0J0CJ97, 392M, 2157, 1094, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_S0DUF2, 392M, 2149, 1090, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_F9FTG3, 184M8D208M, 2119, 1060, 0, 399, 0, 391, 202)
+AlignmentRecord(UniRef100_N4TZ35, 184M34D208M, 2093, 1034, 0, 425, 0, 391, 228)
+AlignmentRecord(UniRef100_A0A0D2XDQ1, 184M32D208M, 2092, 1036, 0, 423, 0, 391, 226)
+
+topK:5 Query:UniRef100_C5M453
+AlignmentRecord(UniRef100_C5M453, 392M, 2105, 1056, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_B9WL62, 237M2D149M4D6M, 1620, 866, 0, 397, 0, 391, 200)
+AlignmentRecord(UniRef100_Q59LU6, 237M2D149M4D6M, 1604, 864, 0, 397, 0, 391, 200)
+AlignmentRecord(UniRef100_A0A0A6JYV9, 237M2D149M4D6M, 1604, 864, 0, 397, 0, 391, 200)
+AlignmentRecord(UniRef100_M3IQP4, 237M2D148M, 1587, 817, 0, 386, 0, 384, 189)
+
+topK:5 Query:UniRef100_M7UDA0
+AlignmentRecord(UniRef100_M7UDA0, 392M, 2078, 1045, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_G2YAA7, 90M2D302M, 2066, 1033, 0, 393, 0, 391, 196)
+AlignmentRecord(UniRef100_W9CMZ4, 392M, 2020, 1000, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A7ES72, 392M, 2006, 1005, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A0A194X647, 14M5D20M7I351M, 1821, 822, 0, 389, 0, 391, 192)
+
+topK:5 Query:UniRef100_G2YLV2
+AlignmentRecord(UniRef100_G2YLV2, 392M, 2063, 1028, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_W9C2C1, 20M1I8M2I69M1I245M, 1564, 594, 46, 341, 46, 391, 144)
+AlignmentRecord(UniRef100_A7ESR1, 60M1I245M, 1391, 451, 86, 304, 86, 391, 107)
+AlignmentRecord(UniRef100_A0A194X7Y6, 78M2D140M1I98M, 986, 358, 75, 330, 75, 391, 132)
+AlignmentRecord(UniRef100_S3CS45, 7M5I10M15I3M1D46M3D12M5D10M1D138M4D9M4D83M2I6M, 939, 349, 46, 341, 46, 391, 144)
+
+topK:5 Query:UniRef100_G2XUL9
+AlignmentRecord(UniRef100_G2XUL9, 392M, 2108, 1039, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A7E6K0, 392M, 2094, 1039, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_W9CCG7, 392M, 2079, 1034, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_K1WVI0, 388M, 1982, 990, 0, 387, 0, 387, 190)
+AlignmentRecord(UniRef100_A0A0C3D2X0, 392M, 1975, 996, 0, 391, 0, 391, 194)
+
+topK:5 Query:UniRef100_Q4X0L2
+AlignmentRecord(UniRef100_Q4X0L2, 392M, 2150, 1041, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A0A0J5PYL8, 319M, 1767, 658, 73, 335, 73, 391, 138)
+AlignmentRecord(UniRef100_A0A0S7DUI3, 319M, 1752, 648, 73, 335, 73, 391, 138)
+AlignmentRecord(UniRef100_A1DHL4, 319M, 1751, 654, 73, 335, 73, 391, 138)
+AlignmentRecord(UniRef100_A0A0K8LG67, 319M, 1733, 640, 73, 335, 73, 391, 138)
+
+topK:5 Query:UniRef100_W9Z3K9
+AlignmentRecord(UniRef100_W9Z3K9, 392M, 2110, 1041, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_W9YAN3, 392M, 1743, 899, 0, 393, 0, 391, 196)
+AlignmentRecord(UniRef100_H6BNH0, 392M, 1699, 890, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A0A0D2JC67, 205M1I186M, 1615, 871, 0, 390, 0, 391, 193)
+AlignmentRecord(UniRef100_A0A0D2DGG9, 194M4I194M, 1547, 809, 0, 387, 0, 391, 190)
+
+topK:5 Query:UniRef100_C5M6U4
+AlignmentRecord(UniRef100_C5M6U4, 392M, 2102, 1040, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_C4YIA7, 20M1I369M, 1796, 873, 2, 392, 2, 391, 195)
+AlignmentRecord(UniRef100_Q5AHJ9, 20M1I369M, 1793, 870, 2, 392, 2, 391, 195)
+AlignmentRecord(UniRef100_A0A0A6KWM1, 17M1I372M, 1792, 866, 2, 392, 2, 391, 195)
+AlignmentRecord(UniRef100_B9WB98, 18M1I369M, 1788, 870, 4, 392, 4, 391, 195)
+
+topK:5 Query:UniRef100_G2Y5H4
+AlignmentRecord(UniRef100_G2Y5H4, 392M, 2052, 1037, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A7EJV3, 392M, 1990, 1020, 0, 928, 0, 391, 731)
+AlignmentRecord(UniRef100_W9C6J0, 391M, 1954, 1006, 0, 926, 0, 390, 729)
+AlignmentRecord(UniRef100_A0A194XTT2, 392M, 1888, 973, 0, 931, 0, 391, 734)
+AlignmentRecord(UniRef100_K1WB96, 392M, 1873, 986, 0, 931, 0, 391, 734)
+
+topK:5 Query:UniRef100_Q4WRX7
+AlignmentRecord(UniRef100_Q4WRX7, 392M, 2192, 1111, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A0A0J5PH90, 392M, 2188, 1110, 0, 436, 0, 391, 239)
+AlignmentRecord(UniRef100_A1D1U2, 6M5D386M, 2121, 1091, 0, 396, 0, 391, 199)
+AlignmentRecord(UniRef100_A0A0S7E2L3, 392M, 2117, 1095, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A0A0K8LNH0, 90M2I102M1I197M, 2062, 1055, 0, 388, 0, 391, 191)
+
+topK:5 Query:UniRef100_G2YHU2
+AlignmentRecord(UniRef100_G2YHU2, 392M, 2114, 1078, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_W9CJA4, 258M2I132M, 1946, 1009, 0, 389, 0, 391, 192)
+AlignmentRecord(UniRef100_A7E422, 113M37I111M6D82M1D48M, 1638, 768, 0, 360, 0, 390, 163)
+AlignmentRecord(UniRef100_A0A194XNL1, 19M2D218M6D83M1D49M, 1416, 708, 23, 395, 23, 391, 197)
+AlignmentRecord(UniRef100_A0A0C3H9D6, 22M3I15M2D160M1D63M5D7M3I8M4D61M1D47M, 1374, 729, 2, 396, 2, 390, 199)
+
+topK:5 Query:UniRef100_C5M8Q0
+AlignmentRecord(UniRef100_C5M8Q0, 392M, 2066, 1006, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_M3K5S0, 29M1D6M1D356M, 1696, 768, 0, 392, 0, 390, 195)
+AlignmentRecord(UniRef100_B9WIY6, 29M7D7M1I141M3D10M5D204M, 1685, 738, 0, 405, 0, 391, 208)
+AlignmentRecord(UniRef100_C4YSM3, 29M5D7M1I144M2D211M, 1680, 726, 0, 397, 0, 391, 200)
+AlignmentRecord(UniRef100_A0A0A6KAL2, 29M5D7M1I144M2D211M, 1680, 726, 0, 397, 0, 391, 200)
+
+topK:5 Query:UniRef100_W9Z313
+AlignmentRecord(UniRef100_W9Z313, 392M, 2128, 1065, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A0A0D2IUZ8, 16M3D3M2I47M1I323M, 1638, 688, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_H6BJU9, 195M1D197M, 1620, 655, 0, 392, 0, 391, 194)
+AlignmentRecord(UniRef100_A0A0D2I6K5, 67M2I127M1D196M, 1610, 690, 0, 390, 0, 391, 193)
+AlignmentRecord(UniRef100_A0A178CQ81, 46M1D21M2I127M1D196M, 1604, 679, 0, 391, 0, 391, 194)
+
+topK:5 Query:UniRef100_G2YZ18
+AlignmentRecord(UniRef100_G2YZ18, 392M, 2098, 1039, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A7EVN5, 392M, 2003, 995, 0, 499, 0, 391, 302)
+AlignmentRecord(UniRef100_W9CBM2, 2M1D214M1D11M1D165M, 1963, 986, 0, 464, 0, 391, 267)
+AlignmentRecord(UniRef100_A0A194X2X0, 213M1I169M, 1765, 877, 1, 388, 1, 383, 191)
+AlignmentRecord(UniRef100_S3DE49, 211M4I110M2I11M4I47M, 1644, 827, 1, 449, 1, 389, 252)
+
+topK:5 Query:UniRef100_W9XNF5
+AlignmentRecord(UniRef100_W9XNF5, 392M, 2092, 1045, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A0A0D2BGL5, 24M2I145M1I97M9D100M3I4M2D8M2I6M, 1601, 897, 0, 394, 0, 391, 197)
+AlignmentRecord(UniRef100_A0A0D2FYH9, 24M2I144M1I97M7D95M4I15M, 1590, 824, 0, 381, 0, 381, 184)
+AlignmentRecord(UniRef100_W9XLP5, 21M2I148M1I86M4D12M4D93M1I8M3I11M, 1589, 832, 0, 386, 0, 385, 188)
+AlignmentRecord(UniRef100_A0A0D2CAA0, 24M2I144M1I97M7D116M2I6M, 1578, 876, 0, 393, 0, 391, 196)
+
+topK:5 Query:UniRef100_W9XNZ5
+AlignmentRecord(UniRef100_W9XNZ5, 392M, 2103, 1021, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A0A0D2ILX7, 68M3I316M, 1616, 681, 0, 383, 0, 386, 182)
+AlignmentRecord(UniRef100_W9XPD7, 52M1I319M, 1608, 679, 18, 371, 18, 389, 174)
+AlignmentRecord(UniRef100_A0A0D2KIW7, 70M1I313M, 1542, 691, 0, 382, 0, 383, 185)
+AlignmentRecord(UniRef100_W9WLX8, 70M1I313M, 1539, 664, 0, 382, 0, 383, 185)
+
+topK:5 Query:UniRef100_Q4WVP7
+AlignmentRecord(UniRef100_Q4WVP7, 392M, 2154, 1082, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A0A0J5Q1D5, 392M, 2129, 1068, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A1DDQ0, 365M2I8M1I16M, 1946, 982, 0, 388, 0, 391, 191)
+AlignmentRecord(UniRef100_A0A0S7E3N9, 365M2I25M, 1932, 957, 0, 389, 0, 391, 192)
+AlignmentRecord(UniRef100_A0A0K8L3D6, 365M2I25M, 1892, 934, 0, 389, 0, 391, 192)
+
+topK:5 Query:UniRef100_M7U8Z4
+AlignmentRecord(UniRef100_M7U8Z4, 392M, 2182, 1072, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_W9CTF1, 66M4D48M1D106M1I2M1I70M24I8M8I27M4D6M9D4M1D17M, 1158, 585, 0, 372, 0, 387, 175)
+AlignmentRecord(UniRef100_A7EU11, 182M1I8M15I8M4I60M, 868, 264, 111, 257, 111, 388, 60)
+AlignmentRecord(UniRef100_S3DWW7, 3M2D17M6I23M6I14M4D8M5D16M1D12M1D17M3D79M9D4M4D7M11I4M2I13M2D5M1D7M3I15M, 303, 80, 1, 287, 1, 272, 83)
+AlignmentRecord(UniRef100_S3D309, 16M4I22M6D7M1I6M2D3M2D17M9I91M7D4M9D13M5D9M1D6M2D4M5I39M, 277, 107, 29, 364, 29, 284, 161)
+
+topK:5 Query:UniRef100_Q4WGF5
+AlignmentRecord(UniRef100_Q4WGF5, 392M, 2085, 1020, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A1DCE8, 20M1D372M, 2035, 1008, 0, 392, 0, 391, 195)
+AlignmentRecord(UniRef100_A0A0S7DM69, 20M1D372M, 2025, 1008, 0, 392, 0, 391, 195)
+AlignmentRecord(UniRef100_A0A0K8LE33, 20M1D368M, 1967, 961, 0, 388, 0, 387, 191)
+AlignmentRecord(UniRef100_A1CDH1, 12M1D8M1D279M1I92M, 1876, 959, 0, 392, 0, 391, 195)
+
+topK:5 Query:UniRef100_W9Z1E5
+AlignmentRecord(UniRef100_W9Z1E5, 392M, 2133, 1056, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_W9Z3P9, 234M5I68M3D28M8I18M1D20M4I4M, 1714, 929, 0, 375, 0, 388, 178)
+AlignmentRecord(UniRef100_H6C2K6, 228M4I79M5D30M16I23M, 1587, 843, 0, 557, 0, 379, 360)
+AlignmentRecord(UniRef100_A0A0D2IJJ8, 234M5I69M2D9M1D13M, 1466, 631, 0, 496, 0, 329, 299)
+AlignmentRecord(UniRef100_A0A0D1ZAA7, 225M4I77M13D5M1I19M15I14M6D19M, 1457, 875, 0, 552, 0, 378, 355)
+
+topK:5 Query:UniRef100_B2ADM6
+AlignmentRecord(UniRef100_B2ADM6, 392M, 2133, 1045, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A0A090CPK0, 68M18D131M19I174M, 1955, 920, 0, 390, 0, 391, 193)
+AlignmentRecord(UniRef100_A0A175W5G0, 68M29D61M20I48M19I15M1D60M1I22M3D4M11D15M, 749, 312, 4, 341, 4, 336, 144)
+AlignmentRecord(UniRef100_A0A194VC52, 49M8D16M1D75M1D58M19I19M1I31M7I13M2I19M1D10M9I8M2D53M, 557, 393, 1, 365, 1, 389, 562)
+AlignmentRecord(UniRef100_A0A179I7A2, 62M4I4M7D74M1D53M19I20M1I31M1D4M, 527, 132, 1, 258, 1, 272, 61)
+
+topK:5 Query:UniRef100_C5MD91
+AlignmentRecord(UniRef100_C5MD91, 392M, 2141, 1050, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_B9W8E1, 101M1D180M3D37M2D5M7D69M, 1378, 762, 0, 404, 0, 391, 206)
+AlignmentRecord(UniRef100_A0A0A6L2Y7, 105M1D176M1D31M2I4M3D5M7D69M, 1359, 759, 0, 401, 0, 391, 202)
+AlignmentRecord(UniRef100_Q59PV5, 105M1D176M1D31M2I4M3D5M7D69M, 1360, 759, 0, 401, 0, 391, 202)
+AlignmentRecord(UniRef100_Q59PX9, 105M1D176M1D33M3D5M1D4M4D69M, 1351, 753, 0, 401, 0, 391, 202)
+
+topK:5 Query:UniRef100_Q4WWZ5
+AlignmentRecord(UniRef100_Q4WWZ5, 392M, 2122, 1038, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_B0XYM7, 392M, 2121, 1038, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A1D7T5, 392M, 2092, 1026, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A0A0S7DLB1, 392M, 2070, 1001, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A0A0K8LD69, 392M, 2034, 993, 0, 391, 0, 391, 194)
+
+topK:5 Query:UniRef100_M7UCQ6
+AlignmentRecord(UniRef100_M7UCQ6, 392M, 2283, 1140, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_G2XZB1, 392M, 2279, 1136, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A7EFR4, 47M17I79M11I93M38I107M, 1687, 706, 0, 325, 0, 391, 125)
+AlignmentRecord(UniRef100_W9CTS4, 23M2D13M2I9M49I47M11I79M8I2M26I123M, 1414, 415, 0, 297, 0, 391, 93)
+AlignmentRecord(UniRef100_A0A179HBS9, 32M7D41M1D8M1I19M4I15M3I13M2D14M1I3M17I19M10I11M2D14M4D15M1I11M1D4M12D24M8I10M3I25M, 635, 328, 6, 308, 6, 331, 109)
+
+topK:5 Query:UniRef100_M7V2E2
+AlignmentRecord(UniRef100_M7V2E2, 392M, 2136, 1065, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_G2YSU6, 392M, 2123, 1060, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A7F7X6, 364M, 1852, 844, 28, 363, 28, 391, 166)
+AlignmentRecord(UniRef100_W9CFJ0, 86M29I277M, 1730, 741, 0, 362, 0, 391, 165)
+AlignmentRecord(UniRef100_A0A0C3HYV1, 135M3I218M1D8M, 1449, 594, 28, 361, 28, 391, 164)
+
+BLOSUM62	/queryD/D9L392N40	/Luniref/DL9Line.fasta	256	1	5	11	1	
+topK:5 Query:UniRef100_S2JIB5                                                   
+AlignmentRecord(UniRef100_S2JIB5, 392M, 2136, 1098, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A0A168Q3X9, 169M1D188M1D35M, 2027, 1063, 0, 393, 0, 391, 196)
+AlignmentRecord(UniRef100_A0A0C9M6E2, 169M1D191M3D32M, 1984, 1061, 0, 395, 0, 391, 198)
+AlignmentRecord(UniRef100_A0A0B7NSV9, 22M1D2M2D45M12I66M2I24M2D5M7D23M4I11M1I11M19I22M9I17M1I35M2D27M4I7M1D11M, 1018, 619, 0, 342, 0, 379, 140)
+AlignmentRecord(UniRef100_A0A0C7BKV7, 3M1D19M1I134M10I7M5I37M27I18M10I30M4D18M1D10M1D26M4I7M5I20M, 863, 610, 0, 338, 0, 390, 141)
+
+topK:5 Query:UniRef100_A0A177A2S8
+AlignmentRecord(UniRef100_A0A177A2S8, 392M, 2078, 1035, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A0A177A9G5, 8M3D2M8D244M, 1272, 249, 138, 310, 138, 391, 113)
+AlignmentRecord(UniRef100_L8FXF9, 171M, 894, 0, 221, 170, 221, 391, 0)
+AlignmentRecord(UniRef100_A0A177A0Y6, 2M2D29M7D37M5I10M1D11M1I140M12I21M2I16M1D16M9I21M3I47M, 790, 337, 0, 360, 0, 381, 163)
+AlignmentRecord(UniRef100_A0A177A2V3, 20M1I9M4I22M1I8M2I12M1D3M3I47M30I85M1D23M2I12M1I11M10I26M16D46M, 690, 255, 5, 348, 5, 382, 151)
+
+topK:5 Query:UniRef100_A0A0F4GJW2
+AlignmentRecord(UniRef100_A0A0F4GJW2, 392M, 1982, 974, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_F9XNJ0, 392M, 1952, 956, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A0A139H680, 264M1D84M3D44M, 1214, 673, 0, 395, 0, 391, 198)
+AlignmentRecord(UniRef100_A0A139H4Y7, 264M1D85M3D43M, 1191, 653, 0, 395, 0, 391, 198)
+AlignmentRecord(UniRef100_M3AH46, 264M1D84M3D44M, 1185, 646, 0, 395, 0, 391, 198)
+
+topK:5 Query:UniRef100_A0A0F4GK02
+AlignmentRecord(UniRef100_A0A0F4GK02, 392M, 2023, 1012, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_F9WXN5, 392M, 1951, 982, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_M3C188, 107M1D55M3D3M1I184M3I18M3I18M, 1362, 638, 0, 388, 0, 391, 191)
+AlignmentRecord(UniRef100_Q0UA54, 59M2D48M1D55M1D186M3I17M5I18M, 1348, 603, 0, 386, 0, 390, 189)
+AlignmentRecord(UniRef100_A0A139H217, 107M1D58M2D72M1D113M3I19M5I15M, 1303, 632, 0, 541, 0, 391, 344)
+
+topK:5 Query:UniRef100_A0A0F4GFF4
+AlignmentRecord(UniRef100_A0A0F4GFF4, 392M, 2147, 1045, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_F9X805, 376M, 1976, 903, 15, 377, 15, 390, 180)
+AlignmentRecord(UniRef100_M3A189, 209M1I166M, 1701, 705, 15, 376, 15, 390, 179)
+AlignmentRecord(UniRef100_A0A139H354, 209M1I166M, 1660, 684, 15, 388, 15, 390, 191)
+AlignmentRecord(UniRef100_A0A139IN61, 209M1I53M6I107M, 1606, 635, 15, 370, 15, 390, 173)
+
+topK:5 Query:UniRef100_A0A0I9XEW1
+AlignmentRecord(UniRef100_A0A0I9XEW1, 392M, 2050, 986, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_W7MRX3, 391M, 1969, 935, 0, 390, 0, 390, 193)
+AlignmentRecord(UniRef100_X0JM95, 11M1I41M1I303M1D32M, 1746, 805, 0, 387, 0, 388, 190)
+AlignmentRecord(UniRef100_W9JLI0, 11M1I41M1I86M16I201M1D32M, 1649, 700, 0, 371, 0, 388, 174)
+AlignmentRecord(UniRef100_X0LHU8, 45M1I124M19I195M, 1629, 740, 8, 387, 8, 391, 190)
+
+topK:5 Query:UniRef100_S2K2M3
+AlignmentRecord(UniRef100_S2K2M3, 392M, 2024, 993, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A0A168IXM9, 371M1D9M, 1777, 1592, 0, 380, 0, 379, 576)
+AlignmentRecord(UniRef100_A0A0C9MNM2, 392M, 1758, 916, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A0A0B7N954, 359M, 1577, 742, 0, 358, 0, 358, 161)
+AlignmentRecord(UniRef100_I1C7D7, 174M1I40M2D106M1D68M, 1052, 575, 2, 394, 2, 390, 192)
+
+topK:5 Query:UniRef100_A0A0I9Y7X6
+AlignmentRecord(UniRef100_A0A0I9Y7X6, 392M, 2110, 1058, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_S0DXB3, 392M, 2105, 1053, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_W9J8S2, 309M2D83M, 2035, 1027, 0, 425, 0, 391, 228)
+AlignmentRecord(UniRef100_W9KZ87, 309M2D83M, 2030, 1024, 0, 425, 0, 391, 228)
+AlignmentRecord(UniRef100_X0D2H2, 309M2D83M, 2026, 1014, 0, 425, 0, 391, 228)
+
+topK:5 Query:UniRef100_A0A0F4GX45
+AlignmentRecord(UniRef100_A0A0F4GX45, 392M, 2136, 1061, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_F9X6B3, 392M, 2094, 1057, 0, 461, 0, 391, 264)
+AlignmentRecord(UniRef100_A0A139HJU6, 364M1I4M1I22M, 1918, 1006, 0, 459, 0, 391, 262)
+AlignmentRecord(UniRef100_M2ZXX0, 364M1I4M1I22M, 1909, 1008, 0, 459, 0, 391, 262)
+AlignmentRecord(UniRef100_N1PR65, 349M2I41M, 1894, 995, 0, 459, 0, 391, 262)
+
+topK:5 Query:UniRef100_S2JR65
+AlignmentRecord(UniRef100_S2JR65, 392M, 2202, 1145, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A0A168N1A8, 19M1I55M3D8M6D11M1I5M2D7M1D285M, 2009, 1010, 0, 401, 0, 391, 204)
+AlignmentRecord(UniRef100_A0A0C9LTQ6, 24M1I50M3D17M2I6M1D7M1D251M, 1835, 845, 0, 359, 0, 357, 162)
+AlignmentRecord(UniRef100_A0A0B7N0C1, 60M4D272M3D12M10D48M, 1814, 1012, 0, 408, 0, 391, 210)
+AlignmentRecord(UniRef100_A0A0C7BII8, 15M1D6M2D3M1I6M2D8M1I7M1D14M1I12M1D6M2I4M1I6M3I4M1I10M2I230M5I6M1D33M, 1460, 684, 0, 377, 0, 386, 180)
+
+topK:5 Query:UniRef100_L2GNE6
+AlignmentRecord(UniRef100_L2GNE6, 392M, 2106, 1075, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A0A0M3K2W8, 22M16D7M3D27M2D13M3D80M5D36M, 118, 62, 95, 1121, 95, 279, 888)
+AlignmentRecord(UniRef100_I6RZH7, 32M2D15M4I6M1I5M1I14M3I4M2I33M2D39M6I8M1D9M, 112, 24, 81, 257, 81, 262, 36)
+AlignmentRecord(UniRef100_A0A198FSL0, 19M5I28M1D22M2I37M2I8M, 112, 0, 66, 188, 66, 188, 0)
+AlignmentRecord(UniRef100_J9I631, 18M1I7M2I27M2D19M2D17M1D17M1D48M, 102, 47, 124, 334, 124, 279, 802)
+
+topK:5 Query:UniRef100_A0A141PZB2
+AlignmentRecord(UniRef100_A0A141PZB2, 392M, 2137, 1057, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_Q0CWW4, 392M, 2101, 1895, 0, 788, 0, 391, 984)
+AlignmentRecord(UniRef100_A2QYC2, 392M, 2093, 1887, 0, 788, 0, 391, 984)
+AlignmentRecord(UniRef100_A0A117E303, 392M, 2090, 1884, 0, 788, 0, 391, 984)
+AlignmentRecord(UniRef100_A1CG49, 392M, 2083, 1877, 0, 789, 0, 391, 985)
+
+topK:5 Query:UniRef100_A0A176ZZT9
+AlignmentRecord(UniRef100_A0A176ZZT9, 392M, 2107, 1044, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_L8FQ44, 245M15D147M, 2082, 1121, 0, 406, 0, 391, 209)
+AlignmentRecord(UniRef100_A0A094HDT4, 245M15D129M, 1748, 1565, 0, 388, 0, 373, 587)
+AlignmentRecord(UniRef100_A0A094EID0, 71M1I173M15D129M, 1740, 1557, 0, 387, 0, 373, 586)
+AlignmentRecord(UniRef100_A0A094HSD8, 108M1D9M1D41M1D87M15D129M, 1678, 1495, 0, 391, 0, 373, 590)
+
+topK:5 Query:UniRef100_A0A0F4GHI1
+AlignmentRecord(UniRef100_A0A0F4GHI1, 392M, 2084, 1030, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_N1Q2Y9, 190M14D196M, 1688, 839, 6, 406, 6, 391, 196)
+AlignmentRecord(UniRef100_N1QJS8, 194M2D12M9D6M1D178M, 1678, 860, 2, 401, 2, 391, 193)
+AlignmentRecord(UniRef100_M2N5N6, 119M1D73M16D195M, 1633, 816, 5, 413, 5, 391, 214)
+AlignmentRecord(UniRef100_A0A139HXV6, 196M5D13M1D178M, 1620, 839, 5, 398, 5, 391, 197)
+
+topK:5 Query:UniRef100_A0A0I9Y9K1
+AlignmentRecord(UniRef100_A0A0I9Y9K1, 392M, 2064, 997, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_S0EJ06, 392M, 2029, 967, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_W9JUC6, 392M, 1885, 909, 0, 391, 0, 391, 193)
+AlignmentRecord(UniRef100_W9HR16, 392M, 1843, 890, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_X0JSP0, 66M8I318M, 1818, 848, 0, 383, 0, 391, 186)
+
+topK:5 Query:UniRef100_A0A0J0CJ97
+AlignmentRecord(UniRef100_A0A0J0CJ97, 392M, 2157, 1094, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_S0DUF2, 392M, 2149, 1090, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_F9FTG3, 184M8D208M, 2119, 1060, 0, 399, 0, 391, 202)
+AlignmentRecord(UniRef100_N4TZ35, 184M34D208M, 2093, 1034, 0, 425, 0, 391, 228)
+AlignmentRecord(UniRef100_A0A0D2XDQ1, 184M32D208M, 2092, 1036, 0, 423, 0, 391, 226)
+
+topK:5 Query:UniRef100_C5M453
+AlignmentRecord(UniRef100_C5M453, 392M, 2105, 1056, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_B9WL62, 237M2D149M4D6M, 1620, 866, 0, 397, 0, 391, 200)
+AlignmentRecord(UniRef100_A0A0A6JYV9, 237M2D149M4D6M, 1604, 864, 0, 397, 0, 391, 200)
+AlignmentRecord(UniRef100_Q59LU6, 237M2D149M4D6M, 1604, 864, 0, 397, 0, 391, 200)
+AlignmentRecord(UniRef100_M3IQP4, 237M2D148M, 1587, 817, 0, 386, 0, 384, 189)
+
+topK:5 Query:UniRef100_M7UDA0
+AlignmentRecord(UniRef100_M7UDA0, 392M, 2078, 1045, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_G2YAA7, 90M2D302M, 2066, 1033, 0, 393, 0, 391, 196)
+AlignmentRecord(UniRef100_W9CMZ4, 392M, 2020, 1000, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A7ES72, 392M, 2006, 1005, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A0A194X647, 14M5D20M7I351M, 1821, 822, 0, 389, 0, 391, 192)
+
+topK:5 Query:UniRef100_G2YLV2
+AlignmentRecord(UniRef100_G2YLV2, 392M, 2063, 1028, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_W9C2C1, 20M1I8M2I69M1I245M, 1564, 594, 46, 341, 46, 391, 144)
+AlignmentRecord(UniRef100_A7ESR1, 60M1I245M, 1391, 451, 86, 304, 86, 391, 107)
+AlignmentRecord(UniRef100_A0A194X7Y6, 78M2D140M1I98M, 986, 358, 75, 330, 75, 391, 132)
+AlignmentRecord(UniRef100_S3CS45, 7M5I10M15I3M1D46M3D12M5D10M1D138M4D9M4D83M2I6M, 939, 349, 46, 341, 46, 391, 144)
+
+topK:5 Query:UniRef100_G2XUL9
+AlignmentRecord(UniRef100_G2XUL9, 392M, 2108, 1039, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A7E6K0, 392M, 2094, 1039, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_W9CCG7, 392M, 2079, 1034, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_K1WVI0, 388M, 1982, 990, 0, 387, 0, 387, 190)
+AlignmentRecord(UniRef100_A0A0C3D2X0, 392M, 1975, 996, 0, 391, 0, 391, 194)
+
+topK:5 Query:UniRef100_Q4X0L2
+AlignmentRecord(UniRef100_Q4X0L2, 392M, 2150, 1041, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A0A0J5PYL8, 319M, 1767, 658, 73, 335, 73, 391, 138)
+AlignmentRecord(UniRef100_A0A0S7DUI3, 319M, 1752, 648, 73, 335, 73, 391, 138)
+AlignmentRecord(UniRef100_A1DHL4, 319M, 1751, 654, 73, 335, 73, 391, 138)
+AlignmentRecord(UniRef100_A0A0K8LG67, 319M, 1733, 640, 73, 335, 73, 391, 138)
+
+topK:5 Query:UniRef100_W9Z3K9
+AlignmentRecord(UniRef100_W9Z3K9, 392M, 2110, 1041, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_W9YAN3, 392M, 1743, 899, 0, 393, 0, 391, 196)
+AlignmentRecord(UniRef100_H6BNH0, 392M, 1699, 890, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A0A0D2JC67, 205M1I186M, 1615, 871, 0, 390, 0, 391, 193)
+AlignmentRecord(UniRef100_A0A0D2DGG9, 194M4I194M, 1547, 809, 0, 387, 0, 391, 190)
+
+topK:5 Query:UniRef100_C5M6U4
+AlignmentRecord(UniRef100_C5M6U4, 392M, 2102, 1040, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_C4YIA7, 20M1I369M, 1796, 873, 2, 392, 2, 391, 195)
+AlignmentRecord(UniRef100_Q5AHJ9, 20M1I369M, 1793, 870, 2, 392, 2, 391, 195)
+AlignmentRecord(UniRef100_A0A0A6KWM1, 17M1I372M, 1792, 866, 2, 392, 2, 391, 195)
+AlignmentRecord(UniRef100_B9WB98, 18M1I369M, 1788, 870, 4, 392, 4, 391, 195)
+
+topK:5 Query:UniRef100_G2Y5H4
+AlignmentRecord(UniRef100_G2Y5H4, 392M, 2052, 1037, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A7EJV3, 392M, 1990, 1020, 0, 928, 0, 391, 731)
+AlignmentRecord(UniRef100_W9C6J0, 391M, 1954, 1006, 0, 926, 0, 390, 729)
+AlignmentRecord(UniRef100_A0A194XTT2, 392M, 1888, 973, 0, 931, 0, 391, 734)
+AlignmentRecord(UniRef100_K1WB96, 392M, 1873, 986, 0, 931, 0, 391, 734)
+
+topK:5 Query:UniRef100_Q4WRX7
+AlignmentRecord(UniRef100_Q4WRX7, 392M, 2192, 1111, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A0A0J5PH90, 392M, 2188, 1110, 0, 436, 0, 391, 239)
+AlignmentRecord(UniRef100_A1D1U2, 6M5D386M, 2121, 1091, 0, 396, 0, 391, 199)
+AlignmentRecord(UniRef100_A0A0S7E2L3, 392M, 2117, 1095, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A0A0K8LNH0, 90M2I102M1I197M, 2062, 1055, 0, 388, 0, 391, 191)
+
+topK:5 Query:UniRef100_G2YHU2
+AlignmentRecord(UniRef100_G2YHU2, 392M, 2114, 1078, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_W9CJA4, 258M2I132M, 1946, 1009, 0, 389, 0, 391, 192)
+AlignmentRecord(UniRef100_A7E422, 113M37I111M6D82M1D48M, 1638, 768, 0, 360, 0, 390, 163)
+AlignmentRecord(UniRef100_A0A194XNL1, 19M2D218M6D83M1D49M, 1416, 708, 23, 395, 23, 391, 197)
+AlignmentRecord(UniRef100_A0A0C3H9D6, 22M3I15M2D160M1D63M5D7M3I8M4D61M1D47M, 1374, 729, 2, 396, 2, 390, 199)
+
+topK:5 Query:UniRef100_C5M8Q0
+AlignmentRecord(UniRef100_C5M8Q0, 392M, 2066, 1006, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_M3K5S0, 29M1D6M1D356M, 1696, 768, 0, 392, 0, 390, 195)
+AlignmentRecord(UniRef100_B9WIY6, 29M7D7M1I141M3D10M5D204M, 1685, 738, 0, 405, 0, 391, 208)
+AlignmentRecord(UniRef100_A0A0A6KAL2, 29M5D7M1I144M2D211M, 1680, 726, 0, 397, 0, 391, 200)
+AlignmentRecord(UniRef100_C4YSM3, 29M5D7M1I144M2D211M, 1680, 726, 0, 397, 0, 391, 200)
+
+topK:5 Query:UniRef100_W9Z313
+AlignmentRecord(UniRef100_W9Z313, 392M, 2128, 1065, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A0A0D2IUZ8, 16M3D3M2I47M1I323M, 1638, 688, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_H6BJU9, 195M1D197M, 1620, 655, 0, 392, 0, 391, 194)
+AlignmentRecord(UniRef100_A0A0D2I6K5, 67M2I127M1D196M, 1610, 690, 0, 390, 0, 391, 193)
+AlignmentRecord(UniRef100_A0A178CQ81, 46M1D21M2I127M1D196M, 1604, 679, 0, 391, 0, 391, 194)
+
+topK:5 Query:UniRef100_G2YZ18
+AlignmentRecord(UniRef100_G2YZ18, 392M, 2098, 1039, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A7EVN5, 392M, 2003, 995, 0, 499, 0, 391, 302)
+AlignmentRecord(UniRef100_W9CBM2, 2M1D214M1D11M1D165M, 1963, 986, 0, 464, 0, 391, 267)
+AlignmentRecord(UniRef100_A0A194X2X0, 213M1I169M, 1765, 877, 1, 388, 1, 383, 191)
+AlignmentRecord(UniRef100_S3DE49, 211M4I110M2I11M4I47M, 1644, 827, 1, 449, 1, 389, 252)
+
+topK:5 Query:UniRef100_W9XNF5
+AlignmentRecord(UniRef100_W9XNF5, 392M, 2092, 1045, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A0A0D2BGL5, 24M2I145M1I97M9D100M3I4M2D8M2I6M, 1601, 897, 0, 394, 0, 391, 197)
+AlignmentRecord(UniRef100_A0A0D2FYH9, 24M2I144M1I97M7D95M4I15M, 1590, 824, 0, 381, 0, 381, 184)
+AlignmentRecord(UniRef100_W9XLP5, 21M2I148M1I86M4D12M4D93M1I8M3I11M, 1589, 832, 0, 386, 0, 385, 188)
+AlignmentRecord(UniRef100_A0A0D2CAA0, 24M2I144M1I97M7D116M2I6M, 1578, 876, 0, 393, 0, 391, 196)
+
+topK:5 Query:UniRef100_W9XNZ5
+AlignmentRecord(UniRef100_W9XNZ5, 392M, 2103, 1021, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A0A0D2ILX7, 68M3I316M, 1616, 681, 0, 383, 0, 386, 182)
+AlignmentRecord(UniRef100_W9XPD7, 52M1I319M, 1608, 679, 18, 371, 18, 389, 174)
+AlignmentRecord(UniRef100_A0A0D2KIW7, 70M1I313M, 1542, 691, 0, 382, 0, 383, 185)
+AlignmentRecord(UniRef100_W9WLX8, 70M1I313M, 1539, 664, 0, 382, 0, 383, 185)
+
+topK:5 Query:UniRef100_Q4WVP7
+AlignmentRecord(UniRef100_Q4WVP7, 392M, 2154, 1082, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A0A0J5Q1D5, 392M, 2129, 1068, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A1DDQ0, 365M2I8M1I16M, 1946, 982, 0, 388, 0, 391, 191)
+AlignmentRecord(UniRef100_A0A0S7E3N9, 365M2I25M, 1932, 957, 0, 389, 0, 391, 192)
+AlignmentRecord(UniRef100_A0A0K8L3D6, 365M2I25M, 1892, 934, 0, 389, 0, 391, 192)
+
+topK:5 Query:UniRef100_M7U8Z4
+AlignmentRecord(UniRef100_M7U8Z4, 392M, 2182, 1072, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_W9CTF1, 66M4D48M1D106M1I2M1I70M24I8M8I27M4D6M9D4M1D17M, 1158, 585, 0, 372, 0, 387, 175)
+AlignmentRecord(UniRef100_A7EU11, 182M1I8M15I8M4I60M, 868, 264, 111, 257, 111, 388, 60)
+AlignmentRecord(UniRef100_S3DWW7, 3M2D17M6I23M6I14M4D8M5D16M1D12M1D17M3D79M9D4M4D7M11I4M2I13M2D5M1D7M3I15M, 303, 80, 1, 287, 1, 272, 83)
+AlignmentRecord(UniRef100_S3D309, 16M4I22M6D7M1I6M2D3M2D17M9I91M7D4M9D13M5D9M1D6M2D4M5I39M, 277, 107, 29, 364, 29, 284, 161)
+
+topK:5 Query:UniRef100_Q4WGF5
+AlignmentRecord(UniRef100_Q4WGF5, 392M, 2085, 1020, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A1DCE8, 20M1D372M, 2035, 1008, 0, 392, 0, 391, 195)
+AlignmentRecord(UniRef100_A0A0S7DM69, 20M1D372M, 2025, 1008, 0, 392, 0, 391, 195)
+AlignmentRecord(UniRef100_A0A0K8LE33, 20M1D368M, 1967, 961, 0, 388, 0, 387, 191)
+AlignmentRecord(UniRef100_A1CDH1, 12M1D8M1D279M1I92M, 1876, 959, 0, 392, 0, 391, 195)
+
+topK:5 Query:UniRef100_W9Z1E5
+AlignmentRecord(UniRef100_W9Z1E5, 392M, 2133, 1056, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_W9Z3P9, 234M5I68M3D28M8I18M1D20M4I4M, 1714, 929, 0, 375, 0, 388, 178)
+AlignmentRecord(UniRef100_H6C2K6, 228M4I79M5D30M16I23M, 1587, 843, 0, 557, 0, 379, 360)
+AlignmentRecord(UniRef100_A0A0D2IJJ8, 234M5I69M2D9M1D13M, 1466, 631, 0, 496, 0, 329, 299)
+AlignmentRecord(UniRef100_A0A0D1ZAA7, 225M4I77M13D5M1I19M15I14M6D19M, 1457, 875, 0, 552, 0, 378, 355)
+
+topK:5 Query:UniRef100_B2ADM6
+AlignmentRecord(UniRef100_B2ADM6, 392M, 2133, 1045, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A0A090CPK0, 68M18D131M19I174M, 1955, 920, 0, 390, 0, 391, 193)
+AlignmentRecord(UniRef100_A0A175W5G0, 68M29D61M20I48M19I15M1D60M1I22M3D4M11D15M, 749, 312, 4, 341, 4, 336, 144)
+AlignmentRecord(UniRef100_A0A194VC52, 49M8D16M1D75M1D58M19I19M1I31M7I13M2I19M1D10M9I8M2D53M, 557, 393, 1, 365, 1, 389, 562)
+AlignmentRecord(UniRef100_A0A179I7A2, 62M4I4M7D74M1D53M19I20M1I31M1D4M, 527, 132, 1, 258, 1, 272, 61)
+
+topK:5 Query:UniRef100_C5MD91
+AlignmentRecord(UniRef100_C5MD91, 392M, 2141, 1050, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_B9W8E1, 101M1D180M3D37M2D5M7D69M, 1378, 762, 0, 404, 0, 391, 206)
+AlignmentRecord(UniRef100_A0A0A6L2Y7, 105M1D176M1D31M2I4M3D5M7D69M, 1359, 759, 0, 401, 0, 391, 202)
+AlignmentRecord(UniRef100_Q59PV5, 105M1D176M1D31M2I4M3D5M7D69M, 1360, 759, 0, 401, 0, 391, 202)
+AlignmentRecord(UniRef100_Q59PX9, 105M1D176M1D33M3D5M1D4M4D69M, 1351, 753, 0, 401, 0, 391, 202)
+
+topK:5 Query:UniRef100_Q4WWZ5
+AlignmentRecord(UniRef100_Q4WWZ5, 392M, 2122, 1038, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_B0XYM7, 392M, 2121, 1038, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A1D7T5, 392M, 2092, 1026, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A0A0S7DLB1, 392M, 2070, 1001, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A0A0K8LD69, 392M, 2034, 993, 0, 391, 0, 391, 194)
+
+topK:5 Query:UniRef100_M7UCQ6
+AlignmentRecord(UniRef100_M7UCQ6, 392M, 2283, 1140, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_G2XZB1, 392M, 2279, 1136, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A7EFR4, 47M17I79M11I93M38I107M, 1687, 706, 0, 325, 0, 391, 125)
+AlignmentRecord(UniRef100_W9CTS4, 23M2D13M2I9M49I47M11I79M8I2M26I123M, 1414, 415, 0, 297, 0, 391, 93)
+AlignmentRecord(UniRef100_A0A179HBS9, 32M7D41M1D8M1I19M4I15M3I13M2D14M1I3M17I19M10I11M2D14M4D15M1I11M1D4M12D24M8I10M3I25M, 635, 328, 6, 308, 6, 331, 109)
+
+topK:5 Query:UniRef100_M7V2E2
+AlignmentRecord(UniRef100_M7V2E2, 392M, 2136, 1065, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_G2YSU6, 392M, 2123, 1060, 0, 391, 0, 391, 194)
+AlignmentRecord(UniRef100_A7F7X6, 364M, 1852, 844, 28, 363, 28, 391, 166)
+AlignmentRecord(UniRef100_W9CFJ0, 86M29I277M, 1730, 741, 0, 362, 0, 391, 165)
+AlignmentRecord(UniRef100_A0A0C3HYV1, 135M3I218M1D8M, 1449, 594, 28, 361, 28, 391, 164)
+
+BLOSUM62	/queryD/D9L392N40	/Luniref/DL9Line.fasta	256	1	5	11	1	
+[Stage 16:========>                                             (39 + 16) / 256]^C
+[hadoop@emr-header-1 ~]$ vi aliyunDSW2atmtimequeryHDFSyarnclienttime201701010047D9L392N40M10Gtail.txt 
+

@@ -1,0 +1,2 @@
+initTime1	alg	data	query	scoreMatrix	open	gap	splitNum	taskNum	topK	totalTime	fileName	
+20170101034306370	DSW2ATM	D9L10240N4	D9L10240N1	BLOSUM62	11	1	256	1	5	30.511	/xubo/project/SparkSW/output/time/20170101034306370DSW2ATM_queryFile_D9L10240N1_dbFile_D9L10240N4_splitNum_256_taskNum_1_topK_5	
