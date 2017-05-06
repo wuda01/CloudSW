@@ -7,14 +7,19 @@ CloudSW is more efficient algorithm than DSW in DSA system[1].
 In order to facilitate comparison, this project still remains the DSW and SparkSW code. There will be removed after the paper published.
 
 ##Building CloudSW
+
 ###1.prepare
 we should prepare before run CLoudSW.
+
 ###1.1 Apache Spark
 Please refer: https://github.com/apache/spark
+
 ###1.2 Alluxio
 Please refer: http://www.alluxio.org/
+
 ###1.3 Parasail
 Please refer: https://github.com/jeffdaily/parasail
+
 ###1.4 SSW
 Please refer: https://github.com/mengyao/Complete-Striped-Smith-Waterman-Library
 
