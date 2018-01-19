@@ -1,5 +1,13 @@
 .idea/
-.idea/
+*.iml
+*.ipr
+*.iws
+out
+
 target/
 adam.log
-
+*.log
+*.iml
+*.ipr
+*.iws
+out
